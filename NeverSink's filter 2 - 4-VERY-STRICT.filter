@@ -238,7 +238,7 @@ Show # $type->artifact $tier->fishingrod
 Show
 	Class == "Stackable Currency"
 	BaseType == "Scroll of Wisdom"
-	SetFontSize 35
+	SetFontSize 30
 	SetTextColor 170 158 130
 
 #=================================

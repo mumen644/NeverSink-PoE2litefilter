@@ -167,7 +167,7 @@ Show # %H3 $type->gold $tier->any
 Show
 	Class == "Stackable Currency"
 	BaseType == "Scroll of Wisdom"
-	SetFontSize 35
+	SetFontSize 30
 	SetTextColor 170 158 130
 
 #=================================
