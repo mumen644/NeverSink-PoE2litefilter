@@ -161,125 +161,134 @@ Hide # %H3 $type->gold $tier->any
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 20 20 0 180
 
-#------------------------------
+#=================================
+# Show Scrolls
+#=================================
+Show
+	Class == "Stackable Currency"
+	BaseType == "Scroll of Wisdom"
+	SetFontSize 35
+	SetTextColor 170 158 130
+
+#=================================
 # Primed & Volant Quivers
-#------------------------------
+#=================================
 Show
-Rarity >= Rare
-Class "Quivers"
-BaseType "Primed Quiver" "Volant Quiver"
-SetTextColor 202 227 193
-SetBorderColor 202 227 193
-SetBackgroundColor 60 156 19
-PlayAlertSound 2 300
-PlayEffect Green
-MinimapIcon 1 Green Diamond
-SetFontSize 40
+	Rarity >= Rare
+	Class "Quivers"
+	BaseType "Primed Quiver" "Volant Quiver"
+	SetTextColor 202 227 193
+	SetBorderColor 202 227 193
+	SetBackgroundColor 60 156 19
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
 
-#------------------------------
+#=================================
 # Expert Bows
-#------------------------------
+#=================================
 Show
-Rarity >= Rare
-Class "Bows"
-BaseType "Expert Dualstring"
-SetTextColor 198 207 240
-SetBorderColor 202 227 193
-SetBackgroundColor 46 78 194
-PlayAlertSound 2 300
-PlayEffect Blue
-MinimapIcon 1 Blue Diamond
-SetFontSize 40
+	Rarity >= Rare
+	Class "Bows"
+	BaseType "Expert Dualstring"
+	SetTextColor 198 207 240
+	SetBorderColor 202 227 193
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
 
-#------------------------------
+#=================================
 # Expert Quarterstaves
-#------------------------------
+#=================================
 Show
-Rarity >= Rare
-Class "Quarterstaff"
-BaseType "Expert Barrier Quarterstaff" "Expert Crescent Quarterstaff" "Expert Slicing Quarterstaff"
-SetTextColor 198 207 240
-SetBorderColor 202 227 193
-SetBackgroundColor 46 78 194
-PlayAlertSound 2 300
-PlayEffect Blue
-MinimapIcon 1 Blue Diamond
-SetFontSize 40
+	Rarity >= Rare
+	Class "Quarterstaff"
+	BaseType "Expert Barrier Quarterstaff" "Expert Crescent Quarterstaff" "Expert Slicing Quarterstaff"
+	SetTextColor 198 207 240
+	SetBorderColor 202 227 193
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
 
-#------------------------------
+#=================================
 # Emerald Rings
-#------------------------------
+#=================================
 Show
-Rarity Normal
-Class "Ring"
-BaseType "Emerald Ring"
-SetTextColor 239 245 205
-SetBorderColor 202 227 193
-SetBackgroundColor 91 179 8
-PlayAlertSound 2 300
-PlayEffect Green
-MinimapIcon 1 Green Diamond
-SetFontSize 40
+	Rarity Normal
+	Class "Ring"
+	BaseType "Emerald Ring"
+	SetTextColor 239 245 205
+	SetBorderColor 202 227 193
+	SetBackgroundColor 91 179 8
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
 
-#------------------------------
+#=================================
 # Solar Ammulet
-#------------------------------
+#=================================
 Show
-Rarity Rare
-Class "Amulet"
-BaseType "Solar Amulet"
-SetTextColor 239 245 205
-SetBorderColor 202 227 193
-SetBackgroundColor 91 179 8
-PlayAlertSound 2 300
-PlayEffect Green
-MinimapIcon 1 Green Diamond
-SetFontSize 40
+	Rarity Rare
+	Class "Amulet"
+	BaseType "Solar Amulet"
+	SetTextColor 239 245 205
+	SetBorderColor 202 227 193
+	SetBackgroundColor 91 179 8
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
 
-#------------------------------
+#=================================
 # Body Armour
-#------------------------------
+#=================================
 Show
-Rarity Rare
-Class "Body Armour"
-BaseType "Expert Waxed Jacket"
-SetTextColor 240 184 184
-SetBorderColor 240 184 184
-SetBackgroundColor 166 9 9
-PlayAlertSound 2 300
-PlayEffect Red
-MinimapIcon 1 Red Square
-SetFontSize 40
+	Rarity Rare
+	Class "Body Armour"
+	BaseType "Expert Waxed Jacket"
+	SetTextColor 240 184 184
+	SetBorderColor 240 184 184
+	SetBackgroundColor 166 9 9
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 1 Red Square
+	SetFontSize 40
 
-#------------------------------
+#=================================
 # Boots
-#------------------------------
+#=================================
 Show
-Rarity Rare
-Class "Boots"
-BaseType "Expert Hunting Shoes"
-SetTextColor 240 184 184
-SetBorderColor 240 184 184
-SetBackgroundColor 166 9 9
-PlayAlertSound 2 300
-PlayEffect Red
-MinimapIcon 1 Red Square
-SetFontSize 40
+	Rarity Rare
+	Class "Boots"
+	BaseType "Expert Hunting Shoes"
+	SetTextColor 240 184 184
+	SetBorderColor 240 184 184
+	SetBackgroundColor 166 9 9
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 1 Red Square
+	SetFontSize 40
 
-#------------------------------
+#=================================
 # Helmets
-#------------------------------
+#=================================
 Show
-Rarity Rare
-Class "Helmet"
-BaseType "Expert Feathered Tiara"
-SetTextColor 240 184 184
-SetBorderColor 240 184 184
-SetBackgroundColor 166 9 9
-PlayAlertSound 2 300
-PlayEffect Red
-MinimapIcon 1 Red Square
-SetFontSize 40
+	Rarity Rare
+	Class "Helmet"
+	BaseType "Expert Feathered Tiara"
+	SetTextColor 240 184 184
+	SetBorderColor 240 184 184
+	SetBackgroundColor 166 9 9
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 1 Red Square
+	SetFontSize 40
 
 #===============================================================================================================
 # [[0200]] Exotic Bases
