@@ -1826,9 +1826,9 @@ Hide # %H5 $type->gems->uncut $tier->spirit19
 	ItemLevel 19
 	BaseType == "Uncut Spirit Gem"
 	SetFontSize 42
-	SetTextColor 20 240 240
-	SetBorderColor 20 240 240
-	SetBackgroundColor 6 0 60
+	SetTextColor 6 0 60
+	SetBorderColor 6 0 60
+	SetBackgroundColor 20 240 240
 
 Hide # %H5 $type->gems->uncut $tier->skill19
 	ItemLevel 19
@@ -1844,8 +1844,9 @@ Hide # %H5 $type->gems->uncut $tier->spiritcampaign
 	BaseType == "Uncut Spirit Gem"
 	AreaLevel < 65
 	SetFontSize 42
-	SetTextColor 20 240 240
-	SetBorderColor 20 240 240
+	SetTextColor 6 0 60
+	SetBorderColor 6 0 60
+	SetBackgroundColor 20 240 240
 
 Hide # %H5 $type->gems->uncut $tier->skillcampaign
 	BaseType == "Uncut Skill Gem"
@@ -1867,8 +1868,9 @@ Hide # %H3 $type->gems->uncut $tier->otherspiriteg
 	BaseType == "Uncut Spirit Gem"
 	AreaLevel >= 65
 	SetFontSize 35
-	SetTextColor 20 240 240
-	SetBorderColor 20 240 240
+	SetTextColor 6 0 60
+	SetBorderColor 6 0 60
+	SetBackgroundColor 20 240 240
 
 Hide # %H3 $type->gems->uncut $tier->otherskilleg
 	BaseType == "Uncut Skill Gem"
