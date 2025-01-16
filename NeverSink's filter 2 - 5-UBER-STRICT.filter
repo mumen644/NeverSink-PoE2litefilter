@@ -193,7 +193,7 @@ Show
 	Class "Bows"
 	BaseType "Expert Dualstring"
 	SetTextColor 198 207 240
-	SetBorderColor 202 227 193
+	SetBorderColor 198 207 240
 	SetBackgroundColor 46 78 194
 	PlayAlertSound 2 300
 	PlayEffect Blue
@@ -208,7 +208,7 @@ Show
 	Class "Quarterstaff"
 	BaseType "Expert Barrier Quarterstaff" "Expert Crescent Quarterstaff" "Expert Slicing Quarterstaff"
 	SetTextColor 198 207 240
-	SetBorderColor 202 227 193
+	SetBorderColor 198 207 240
 	SetBackgroundColor 46 78 194
 	PlayAlertSound 2 300
 	PlayEffect Blue
