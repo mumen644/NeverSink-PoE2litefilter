@@ -162,11 +162,11 @@ Hide # %H3 $type->gold $tier->any
 #=================================
 # Show Scrolls
 #=================================
-Show
-	Class == "Stackable Currency"
-	BaseType == "Scroll of Wisdom"
-	SetFontSize 30
-	SetTextColor 170 158 130
+#Show
+#	Class == "Stackable Currency"
+#	BaseType == "Scroll of Wisdom"
+#	SetFontSize 30
+#	SetTextColor 170 158 130
 
 #=================================
 # Primed & Volant Quivers
