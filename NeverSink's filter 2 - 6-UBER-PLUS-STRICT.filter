@@ -236,7 +236,7 @@ Show
 	Class "Amulet"
 	BaseType "Solar Amulet"
 	SetTextColor 239 245 205
-	SetBorderColor 202 227 193
+	SetBorderColor 239 245 205
 	SetBackgroundColor 91 179 8
 	PlayAlertSound 2 300
 	PlayEffect Green
