@@ -172,8 +172,9 @@ Hide # %H3 $type->gold $tier->any
 # Primed & Volant Quivers
 #=================================
 Show
-	Rarity >= Rare
+	Rarity >= Rare	
 	Class "Quivers"
+	ItemLevel >= 82
 	BaseType "Primed Quiver" "Volant Quiver"
 	SetTextColor 202 227 193
 	SetBorderColor 202 227 193
@@ -187,8 +188,9 @@ Show
 # Expert Bows
 #=================================
 Show
-	Rarity >= Rare
+	Rarity >= Rare	
 	Class "Bows"
+	ItemLevel >= 82
 	BaseType "Expert Dualstring"
 	SetTextColor 198 207 240
 	SetBorderColor 198 207 240
@@ -204,7 +206,8 @@ Show
 Show
 	Rarity >= Rare
 	Class "Quarterstaff"
-	BaseType "Expert Barrier Quarterstaff" "Expert Crescent Quarterstaff" "Expert Slicing Quarterstaff"
+	ItemLevel >= 82
+	BaseType "Expert Barrier Quarterstaff" "Expert Crescent Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff"
 	SetTextColor 198 207 240
 	SetBorderColor 198 207 240
 	SetBackgroundColor 46 78 194
@@ -219,6 +222,7 @@ Show
 Show
 	Rarity Normal
 	Class "Ring"
+	ItemLevel >= 82
 	BaseType "Emerald Ring"
 	SetTextColor 239 245 205
 	SetBorderColor 202 227 193
@@ -234,6 +238,7 @@ Show
 Show
 	Rarity Rare
 	Class "Amulet"
+	ItemLevel >= 82
 	BaseType "Solar Amulet"
 	SetTextColor 239 245 205
 	SetBorderColor 239 245 205
@@ -249,7 +254,8 @@ Show
 Show
 	Rarity Rare
 	Class "Body Armour"
-	BaseType "Expert Waxed Jacket"
+	ItemLevel >= 82
+	BaseType "Expert Waxed Jacket" "Expert Wayfarer Jacket"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -264,7 +270,8 @@ Show
 Show
 	Rarity Rare
 	Class "Boots"
-	BaseType "Expert Hunting Shoes"
+	ItemLevel >= 82
+	BaseType "Expert Hunting Shoes" "Expert Threaded Shoes"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -279,6 +286,7 @@ Show
 Show
 	Rarity Rare
 	Class "Helmet"
+	ItemLevel >= 82
 	BaseType "Expert Feathered Tiara"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
