@@ -221,8 +221,7 @@ Show
 #=================================
 Show
 	Rarity Normal
-	Class "Ring"
-	ItemLevel >= 81
+	Class "Ring"	
 	BaseType "Emerald Ring"
 	SetTextColor 239 245 205
 	SetBorderColor 202 227 193
