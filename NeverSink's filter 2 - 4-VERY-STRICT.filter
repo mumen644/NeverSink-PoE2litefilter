@@ -1837,7 +1837,7 @@ Show # %H5 $type->gems->uncut $tier->spirit19
 	SetFontSize 42
 	SetTextColor 6 0 60
 	SetBorderColor 6 0 60
-	SetBackgroundColor 20 240 240
+	SetBackgroundColor 17 15 138
 	PlayAlertSound 2 300
 	PlayEffect Cyan
 	MinimapIcon 1 Cyan Triangle
@@ -1848,7 +1848,7 @@ Show # %H5 $type->gems->uncut $tier->skill19
 	SetFontSize 42
 	SetTextColor 20 240 240
 	SetBorderColor 20 240 240
-	SetBackgroundColor 6 0 60
+	SetBackgroundColor 184 45 25
 	PlayAlertSound 2 300
 	PlayEffect Cyan
 	MinimapIcon 1 Cyan Triangle
