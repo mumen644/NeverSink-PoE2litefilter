@@ -1812,7 +1812,7 @@ Show # $type->gems->uncut $tier->spirit20
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
+	SetBackgroundColor 231 241 14
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
@@ -1834,23 +1834,23 @@ Show # %H5 $type->gems->uncut $tier->spirit19
 	ItemLevel 19
 	BaseType == "Uncut Spirit Gem"
 	SetFontSize 42
-	SetTextColor 6 0 60
-	SetBorderColor 6 0 60
-	SetBackgroundColor 17 15 138
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 240 20 20
 	PlayAlertSound 2 300
-	PlayEffect Cyan
-	MinimapIcon 1 Cyan Triangle
+	PlayEffect Red
+	MinimapIcon 1 Red Triangle
 
 Show # %H5 $type->gems->uncut $tier->skill19
 	ItemLevel 19
 	BaseType == "Uncut Skill Gem"
 	SetFontSize 42
-	SetTextColor 20 240 240
-	SetBorderColor 20 240 240
-	SetBackgroundColor 184 45 25
+	SetTextColor 240 20 20
+	SetBorderColor 240 20 20
+	SetBackgroundColor 0 0 0
 	PlayAlertSound 2 300
-	PlayEffect Cyan
-	MinimapIcon 1 Cyan Triangle
+	PlayEffect Red
+	MinimapIcon 1 Red Triangle
 
 # All gems during campaign with sounds
 
