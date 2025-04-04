@@ -189,13 +189,13 @@ Show
 	SetFontSize 40
 
 #=================================
-# Expert Bows
+# Dualstring Bows
 #=================================
 Show
 	Rarity >= Rare	
 	Class "Bows"
 	ItemLevel >= 81
-	BaseType "Expert Dualstring"
+	BaseType "Gemini Bow"
 	SetTextColor 198 207 240
 	SetBorderColor 198 207 240
 	SetBackgroundColor 46 78 194
@@ -211,7 +211,7 @@ Show
 	Rarity >= Rare
 	Class "Quarterstaff"
 	ItemLevel >= 81
-	BaseType "Expert Barrier Quarterstaff" "Expert Crescent Quarterstaff" "Expert Slicing Quarterstaff" "Expert Gothic Quarterstaff"
+	BaseType "Aegis Quarterstaff" "Lunar Quarterstaff" "Razor Quarterstaff" "Gothic Quarterstaff"
 	SetTextColor 198 207 240
 	SetBorderColor 198 207 240
 	SetBackgroundColor 46 78 194
@@ -258,7 +258,7 @@ Show
 	Rarity Rare
 	Class "Body Armour"
 	ItemLevel >= 81
-	BaseType "Expert Waxed Jacket" "Expert Wayfarer Jacket"
+	BaseType "Sleek Jacket" "Wayfarer Jacket"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -274,7 +274,7 @@ Show
 	Rarity Rare
 	Class "Boots"
 	ItemLevel >= 81
-	BaseType "Expert Hunting Shoes" "Expert Threaded Shoes"
+	BaseType "Quickslip Shoes" "Threaded Shoes"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -290,7 +290,7 @@ Show
 	Rarity Rare
 	Class "Helmet"
 	ItemLevel >= 81
-	BaseType "Expert Feathered Tiara"
+	BaseType "Kamasan Tiara"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
