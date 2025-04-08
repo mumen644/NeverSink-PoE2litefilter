@@ -7,6 +7,24 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.1** - Economy Update
+----------------------------------
+
+## SHORT OVERVIEW:
+
+This update is 100% all about the tiering.
+
+Unique, core, essence, currency, omen, fragment tiering has been adjust to better match the current economy.
+I've also added a ton of safeguards and special treatment to all of the new uniques and items in hopes of minimizing issues.
+
+The economy-versions on FilterBlade will be reenabled and the auto-update as well over the next 2-3 days, if my internal tests all run stable (don't want to expose you to bad filters!).
+
+## CHANGES:
+- Adjusted the tiering and tiering algorithms in all tierlists
+- Moved Seaglass spear into the highest tier
+- Added the acrid wand to filterblade (was in the filter already, just missing from filterblade)
+
+----------------------------------
 # **VERSION 0.7.0** - Dawn of the Hunt
 ----------------------------------
 
@@ -33,7 +51,7 @@ It also comes with a new style: Zen! Happy hunting!
 - Retiered all the currencies by hand for the new league (until economy data is available and reliable)
 - Moved many S tier items into A tier (until economy data is available and reliable)
 - Moved catalysts up by one tier
-- Moved stellar amulet a tier down in temrs of chancing. Moved sapphire ring a tier down.
+- Moved Stellar amulet a tier down in the chancing tierlist. Moved Sapphire ring a tier down.
 - Adjusted the basetype tiering
 
 ## COMING SOON:
