@@ -7,6 +7,16 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.2** - Economy Update
+----------------------------------
+
+## SHORT OVERVIEW:
+
+This is a filterblade only patch. 
+
+For filterblade only: the salvagable item section is now higher priority than the crafting item hiders to make editing the filter easier!
+
+----------------------------------
 # **VERSION 0.7.1** - Economy Update
 ----------------------------------
 
