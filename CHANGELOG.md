@@ -7,6 +7,14 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.3** - New Rune Update
+----------------------------------
+
+## SHORT OVERVIEW:
+
+Added the new Adept, Robust and Resolve runes.
+
+----------------------------------
 # **VERSION 0.7.2** - Economy Update
 ----------------------------------
 

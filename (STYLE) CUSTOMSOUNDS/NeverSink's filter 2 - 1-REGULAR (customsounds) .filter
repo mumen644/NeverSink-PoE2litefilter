@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.7.1
+# VERSION:  0.7.3
 # TYPE:     1-REGULAR
 # STYLE:    CUSTOMSOUNDS
 # AUTHOR:   NeverSink
@@ -432,6 +432,125 @@ Show # %D2 $type->endgame->charms $tier->anycharm
 # [[0800]] Normal and Magic Crafting bases
 #===============================================================================================================
 
+# Double Quality Currencies
+
+Show # %D3 $type->endgame->salvagable $tier->quality2martialany
+	Mirrored False
+	Corrupted False
+	Quality >= 10
+	Rarity Normal Magic
+	Class == "Bows" "Crossbows" "One Hand Maces" "Quarterstaves" "Spears" "Two Hand Maces"
+	AreaLevel >= 65
+	SetFontSize 35
+	SetBorderColor 127 127 127
+
+Show # %D3 $type->endgame->salvagable $tier->quality2casterany
+	Mirrored False
+	Corrupted False
+	Quality >= 10
+	Rarity Normal Magic
+	Class == "Sceptres" "Staves" "Wands"
+	AreaLevel >= 65
+	SetFontSize 38
+	SetBorderColor 180 180 180
+
+Show # %D5 $type->endgame->salvagable $tier->quality2armorany
+	Mirrored False
+	Corrupted False
+	Quality >= 10
+	Rarity Normal Magic
+	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
+	AreaLevel >= 65
+	SetFontSize 38
+	SetBorderColor 180 180 180
+
+Show # %D4 $type->endgame->salvagable $tier->quality2flask
+	Mirrored False
+	Corrupted False
+	Quality >= 10
+	Rarity Normal Magic
+	Class == "Life Flasks" "Mana Flasks"
+	AreaLevel >= 65
+	SetFontSize 38
+	SetBorderColor 180 180 180
+
+# Single Quality Currencies
+
+Show # %D2 $type->endgame->salvagable $tier->qualitymartialany
+	Mirrored False
+	Corrupted False
+	Quality >= 1
+	Rarity Normal Magic
+	Class == "Bows" "Crossbows" "One Hand Maces" "Quarterstaves" "Spears" "Two Hand Maces"
+	AreaLevel >= 65
+	SetFontSize 35
+	SetBorderColor 127 127 127
+
+Show # %D2 $type->endgame->salvagable $tier->qualitycasterany
+	Mirrored False
+	Corrupted False
+	Quality >= 1
+	Rarity Normal Magic
+	Class == "Sceptres" "Staves" "Wands"
+	AreaLevel >= 65
+	SetFontSize 35
+	SetBorderColor 127 127 127
+
+Show # %D4 $type->endgame->salvagable $tier->qualityarmorany
+	Mirrored False
+	Corrupted False
+	Quality >= 1
+	Rarity Normal Magic
+	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
+	AreaLevel >= 65
+	SetFontSize 35
+	SetBorderColor 127 127 127
+
+Show # %D4 $type->endgame->salvagable $tier->qualityflask
+	Mirrored False
+	Corrupted False
+	Quality >= 1
+	Rarity Normal Magic
+	Class == "Life Flasks" "Mana Flasks"
+	AreaLevel >= 65
+	SetFontSize 35
+	SetBorderColor 127 127 127
+
+# Artificer Scraps
+
+Show # %D1 $type->endgame->salvagable $tier->socketslarge1
+	Mirrored False
+	Corrupted False
+	Sockets > 0
+	Width >= 2
+	Height >= 3
+	Rarity Normal Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
+	AreaLevel >= 65
+	SetFontSize 35
+	SetBorderColor 127 127 127
+
+Show # %D1 $type->endgame->salvagable $tier->socketslarge2
+	Mirrored False
+	Corrupted False
+	Sockets > 0
+	Height >= 4
+	Rarity Normal Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
+	AreaLevel >= 65
+	SetFontSize 35
+	SetBorderColor 127 127 127
+
+Show # %D2 $type->endgame->salvagable $tier->socketssmall
+	Mirrored False
+	Corrupted False
+	Sockets > 0
+	Rarity Normal Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
+	AreaLevel >= 65
+	SetFontSize 35
+	SetBorderColor 127 127 127
+
 #------------------------------------
 #   [0801] Hide Crafting Bases
 #------------------------------------
@@ -822,125 +941,6 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorremover
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 20 20 0 240
 	Continue
-
-# Double Quality Currencies
-
-Show # %D3 $type->endgame->salvagable $tier->quality2martialany
-	Mirrored False
-	Corrupted False
-	Quality >= 10
-	Rarity Normal Magic
-	Class == "Bows" "Crossbows" "One Hand Maces" "Quarterstaves" "Spears" "Two Hand Maces"
-	AreaLevel >= 65
-	SetFontSize 35
-	SetBorderColor 127 127 127
-
-Show # %D3 $type->endgame->salvagable $tier->quality2casterany
-	Mirrored False
-	Corrupted False
-	Quality >= 10
-	Rarity Normal Magic
-	Class == "Sceptres" "Staves" "Wands"
-	AreaLevel >= 65
-	SetFontSize 38
-	SetBorderColor 180 180 180
-
-Show # %D5 $type->endgame->salvagable $tier->quality2armorany
-	Mirrored False
-	Corrupted False
-	Quality >= 10
-	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
-	AreaLevel >= 65
-	SetFontSize 38
-	SetBorderColor 180 180 180
-
-Show # %D4 $type->endgame->salvagable $tier->quality2flask
-	Mirrored False
-	Corrupted False
-	Quality >= 10
-	Rarity Normal Magic
-	Class == "Life Flasks" "Mana Flasks"
-	AreaLevel >= 65
-	SetFontSize 38
-	SetBorderColor 180 180 180
-
-# Single Quality Currencies
-
-Show # %D2 $type->endgame->salvagable $tier->qualitymartialany
-	Mirrored False
-	Corrupted False
-	Quality >= 1
-	Rarity Normal Magic
-	Class == "Bows" "Crossbows" "One Hand Maces" "Quarterstaves" "Spears" "Two Hand Maces"
-	AreaLevel >= 65
-	SetFontSize 35
-	SetBorderColor 127 127 127
-
-Show # %D2 $type->endgame->salvagable $tier->qualitycasterany
-	Mirrored False
-	Corrupted False
-	Quality >= 1
-	Rarity Normal Magic
-	Class == "Sceptres" "Staves" "Wands"
-	AreaLevel >= 65
-	SetFontSize 35
-	SetBorderColor 127 127 127
-
-Show # %D4 $type->endgame->salvagable $tier->qualityarmorany
-	Mirrored False
-	Corrupted False
-	Quality >= 1
-	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
-	AreaLevel >= 65
-	SetFontSize 35
-	SetBorderColor 127 127 127
-
-Show # %D4 $type->endgame->salvagable $tier->qualityflask
-	Mirrored False
-	Corrupted False
-	Quality >= 1
-	Rarity Normal Magic
-	Class == "Life Flasks" "Mana Flasks"
-	AreaLevel >= 65
-	SetFontSize 35
-	SetBorderColor 127 127 127
-
-# Artificer Scraps
-
-Show # %D1 $type->endgame->salvagable $tier->socketslarge1
-	Mirrored False
-	Corrupted False
-	Sockets > 0
-	Width >= 2
-	Height >= 3
-	Rarity Normal Magic
-	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
-	AreaLevel >= 65
-	SetFontSize 35
-	SetBorderColor 127 127 127
-
-Show # %D1 $type->endgame->salvagable $tier->socketslarge2
-	Mirrored False
-	Corrupted False
-	Sockets > 0
-	Height >= 4
-	Rarity Normal Magic
-	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
-	AreaLevel >= 65
-	SetFontSize 35
-	SetBorderColor 127 127 127
-
-Show # %D2 $type->endgame->salvagable $tier->socketssmall
-	Mirrored False
-	Corrupted False
-	Sockets > 0
-	Rarity Normal Magic
-	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
-	AreaLevel >= 65
-	SetFontSize 35
-	SetBorderColor 127 127 127
 
 #===============================================================================================================
 # [[0900]] Hide Layer 1 - Normal and Magic Endgame Gear
@@ -1526,7 +1526,7 @@ Hide # $type->hidelayer $tier->raresendgame
 
 Show # %D4 $type->sockets->general $tier->socketleveling1
 	Class == "Socketable"
-	BaseType == "Desert Rune" "Glacial Rune" "Iron Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Iron Rune" "Lesser Storm Rune" "Storm Rune"
+	BaseType == "Adept Rune" "Desert Rune" "Glacial Rune" "Iron Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Iron Rune" "Lesser Storm Rune" "Resolve Rune" "Robust Rune" "Storm Rune"
 	AreaLevel < 65
 	SetFontSize 40
 	SetTextColor 0 0 0 255
@@ -1538,7 +1538,7 @@ Show # %D4 $type->sockets->general $tier->socketleveling1
 
 Show # %D4 $type->sockets->general $tier->socketleveling2
 	Class == "Socketable"
-	BaseType == "Body Rune" "Inspiration Rune" "Lesser Body Rune" "Lesser Inspiration Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Mind Rune" "Rebirth Rune" "Stone Rune" "Vision Rune"
+	BaseType == "Body Rune" "Inspiration Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Inspiration Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Mind Rune" "Rebirth Rune" "Stone Rune" "Vision Rune"
 	AreaLevel < 65
 	SetFontSize 38
 	SetTextColor 220 175 132
@@ -1590,7 +1590,7 @@ Show # %H6 $type->sockets->general $tier->c
 
 Show # %H5 $type->sockets->general $tier->d
 	Class == "Socketable"
-	BaseType == "Desert Rune" "Glacial Rune" "Greater Body Rune" "Greater Inspiration Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Stone Rune" "Greater Vision Rune" "Iron Rune" "Storm Rune"
+	BaseType == "Desert Rune" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Inspiration Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Stone Rune" "Greater Vision Rune" "Iron Rune" "Storm Rune"
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1601,7 +1601,7 @@ Show # %H5 $type->sockets->general $tier->d
 
 Show # %H4 $type->sockets->general $tier->e
 	Class == "Socketable"
-	BaseType == "Body Rune" "Inspiration Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Iron Rune" "Lesser Storm Rune" "Mind Rune" "Rebirth Rune" "Stone Rune" "Vision Rune"
+	BaseType == "Adept Rune" "Body Rune" "Inspiration Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Iron Rune" "Lesser Storm Rune" "Mind Rune" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Stone Rune" "Vision Rune"
 	SetFontSize 40
 	SetTextColor 240 207 132
 	SetBorderColor 240 207 132
@@ -1610,14 +1610,14 @@ Show # %H4 $type->sockets->general $tier->e
 
 Show # %H3 $type->sockets->general $tier->supplylow
 	Class == "Socketable"
-	BaseType == "Lesser Body Rune" "Lesser Inspiration Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Stone Rune" "Lesser Vision Rune"
+	BaseType == "Lesser Adept Rune" "Lesser Body Rune" "Lesser Inspiration Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Vision Rune"
 	SetFontSize 38
 	SetTextColor 220 175 132
 	SetBorderColor 220 175 132
 
 Hide # $type->sockets->general $tier->exhide
 	Class == "Socketable"
-	BaseType == "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Desert Rune" "Fox Talisman" "Glacial Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rabbit Talisman" "Rebirth Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Ticaba" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
+	BaseType == "Adept Rune" "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Desert Rune" "Fox Talisman" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rabbit Talisman" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Ticaba" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 

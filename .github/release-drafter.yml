@@ -3,17 +3,7 @@ template: |
   
   ## SHORT OVERVIEW:
   
-  This update is 100% all about the tiering.
-  
-  Unique, core, essence, currency, omen, fragment tiering has been adjust to better match the current economy.
-  I've also added a ton of safeguards and special treatment to all of the new uniques and items in hopes of minimizing issues.
-  
-  The economy-versions on FilterBlade will be reenabled and the auto-update as well over the next 2-3 days, if my internal tests all run stable (don't want to expose you to bad filters!).
-  
-  ## CHANGES:
-  - Adjusted the tiering and tiering algorithms in all tierlists
-  - Moved Seaglass spear into the highest tier
-  - Added the acrid wand to filterblade (was in the filter already, just missing from filterblade)
+  Added the new Adept, Robust and Resolve runes.
   
   ------
 
