@@ -3,7 +3,14 @@ template: |
   
   ## SHORT OVERVIEW:
   
-  Added the new Adept, Robust and Resolve runes.
+  This update focuses on further improving the tiering rules in the filter. If all goes well, starting with this update and the next days filterblade will have economy updated versions again.
+  
+  ## CHANGES:
+  - Further added safeguards to the automated tiering algorithm
+  - Tiered all economy based tierlists again
+  - Added all unique tablets to the filter (currently all in T2)
+  - Added the Rampart Tower Shield as a chancing base
+  - Further adjusted the architecture changes done in 0.7.2 to help with the sorting of rules
   
   ------
 

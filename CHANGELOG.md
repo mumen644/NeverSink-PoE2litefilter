@@ -7,6 +7,21 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.4** - Tiering and Economy Update
+----------------------------------
+
+## SHORT OVERVIEW:
+
+This update focuses on further improving the tiering rules in the filter. If all goes well, starting with this update and the next days filterblade will have economy updated versions again.
+
+## CHANGES:
+- Further added safeguards to the automated tiering algorithm
+- Tiered all economy based tierlists again
+- Added all unique tablets to the filter (currently all in T2)
+- Added the Rampart Tower Shield as a chancing base
+- Further adjusted the architecture changes done in 0.7.2 to help with the sorting of rules
+
+----------------------------------
 # **VERSION 0.7.3** - New Rune Update
 ----------------------------------
 
