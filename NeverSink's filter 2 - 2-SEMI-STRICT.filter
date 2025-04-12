@@ -312,6 +312,20 @@ Show
 	PlayEffect Green
 	MinimapIcon 1 Green Diamond
 	SetFontSize 40
+
+#==============================
+# Jewelled Gloves
+#==============================
+Show
+	Rarity Normal	
+	BaseType "Jewelled Gloves"
+	SetTextColor 239 245 205
+	SetBorderColor 202 227 193
+	SetBackgroundColor 91 179 8
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
 	
 #===============================================================================================================
 # [[0200]] Exotic Bases
