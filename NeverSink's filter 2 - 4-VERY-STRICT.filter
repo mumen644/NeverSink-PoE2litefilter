@@ -380,6 +380,20 @@ Show
 	MinimapIcon 1 Red Square
 	SetFontSize 40
 
+#===============================
+# Rampart Tower Shield
+#===============================
+Show
+	Rarity Normal	
+	BaseType "Rampart Tower Shield"
+	SetTextColor 239 245 205
+	SetBorderColor 202 227 193
+	SetBackgroundColor 91 179 8
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
 #===============================================================================================================
 # [[0300]] Exotic Item States
 #===============================================================================================================
