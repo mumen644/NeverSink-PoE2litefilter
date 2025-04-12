@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.7.3
+# VERSION:  0.7.4
 # TYPE:     5-UBER-STRICT
 # STYLE:    DEFAULT
 # AUTHOR:   NeverSink
@@ -55,69 +55,69 @@
 #   [0401] Crafting and Chancing Bases
 # [[0500]] Endgame Flasks
 # [[0600]] Endgame Charms
-# [[0700]] Salvagables
-# [[0800]] Normal and Magic Crafting bases
-#   [0801] Hide Crafting Bases
-#   [0802] Normal, Magic Crafting Decorators
-#   [0803] Additional High Value Rules
-#   [0804] Normal, Magic Crafting: Level 82+
-#   [0805] Normal, Magic Crafting: Optional Rules
-#   [0806] Normal, Magic Crafting: Endgame Progression
-#   [0807] Normal, Magic Crafting: Rings+Amulets
-#   [0808] Normal, Magic Crafting: Belts
-#   [0809] Normal, Magic Crafting: Decorator Removers
-# [[0900]] Hide Layer 1 - Normal and Magic Endgame Gear
-# [[1000]] Rare Item Decorators
-# [[1100]] Endgame - Conditional Hide Layers
-# [[1200]] Endgame - Rare - Jewellery
-# [[1300]] Endgame - Rare - Gear - Droplevel Hiding
-# [[1400]] Endgame - Rare - Gear
-# [[1500]] Untiered Rare Catcher
-# [[1600]] Hide Layer 2 - Rare Gear
-# [[1700]] Socketables - Runes and Soul Cores
-# [[1800]] Jewels
-# [[1900]] Relics
-# [[2000]] Gems and Uncut Gems
-# [[2100]] Waystones
-# [[2200]] Normal Waystone Progression
-#   [2201] Generic Decorators
-#   [2202] Special Maps
-#   [2203] Waystone progression
-# [[2300]] Currency - Exceptions - Leveling Currencies
-# [[2400]] Currency - Regular Currency Tiering
-# [[2500]] Currency - SPECIAL
-#   [2501] Distilled Emotions (Delirium)
-#   [2502] Catalysts (breach)
-#   [2503] Essences
-#   [2504] Omen (ritual)
-# [[2600]] Misc Map Like
-# [[2700]] Uniques
-#   [2701] Exceptions #1
-#   [2702] Tier 1 and 2 uniques
-#   [2703] Multi-Unique bases.
-#   [2704] Low tier exceptions
-#   [2705] Tier 3 uniques 
-#   [2706] Tier 4 uniques
-# [[2800]] Splinters, Tablets, Fragments
-# [[2900]] Misc Map Items
-# [[3000]] Remaining Currency
-# [[3100]] Leveling - Salvagable
-# [[3200]] Leveling - Hide outdated leveling flasks
-# [[3300]] Leveling - Life Mana Flasks
-#   [3301] Life flasks
-#   [3302] Mana flasks
-#   [3303] Charms
-# [[3400]] Leveling - Rules
-#   [3401] Rares - Decorators
-#   [3402] Rares - Universal
-#   [3403] Rares - Other
-# [[3500]] Leveling - Useful magic and normal items
-#   [3501] Decorators
-#   [3502] Purpose Picked Items
-#   [3503] Conditional Rules
-#   [3504] Others
-#   [3505] Hide All known Section
-#   [3506] Show All unknown Section
+# [[0700]] Normal and Magic Items: Endgame
+#   [0701] Salvagables
+#   [0702] Custom Hiders
+#   [0703] Normal, Magic Crafting Decorators
+#   [0704] Additional High Value Rules
+#   [0705] Normal, Magic Crafting: Level 82+
+#   [0706] Normal, Magic Crafting: Optional Rules
+#   [0707] Normal, Magic Crafting: Endgame Progression
+#   [0708] Normal, Magic Crafting: Rings+Amulets
+#   [0709] Normal, Magic Crafting: Belts
+#   [0710] Normal, Magic Crafting: Decorator Removers
+# [[0800]] Hide Layer 1 - Normal and Magic Endgame Gear
+# [[0900]] Rare Item Decorators
+# [[1000]] Endgame - Conditional Hide Layers
+# [[1100]] Endgame - Rare - Jewellery
+# [[1200]] Endgame - Rare - Gear - Droplevel Hiding
+# [[1300]] Endgame - Rare - Gear
+# [[1400]] Untiered Rare Catcher
+# [[1500]] Hide Layer 2 - Rare Gear
+# [[1600]] Socketables - Runes and Soul Cores
+# [[1700]] Jewels
+# [[1800]] Relics
+# [[1900]] Gems and Uncut Gems
+# [[2000]] Waystones
+# [[2100]] Normal Waystone Progression
+#   [2101] Generic Decorators
+#   [2102] Special Maps
+#   [2103] Waystone progression
+# [[2200]] Currency - Exceptions - Leveling Currencies
+# [[2300]] Currency - Regular Currency Tiering
+# [[2400]] Currency - SPECIAL
+#   [2401] Distilled Emotions (Delirium)
+#   [2402] Catalysts (breach)
+#   [2403] Essences
+#   [2404] Omen (ritual)
+# [[2500]] Misc Map Like
+# [[2600]] Uniques
+#   [2601] Exceptions #1
+#   [2602] Tier 1 and 2 uniques
+#   [2603] Multi-Unique bases.
+#   [2604] Low tier exceptions
+#   [2605] Tier 3 uniques 
+#   [2606] Tier 4 uniques
+# [[2700]] Splinters, Tablets, Fragments
+# [[2800]] Misc Map Items
+# [[2900]] Remaining Currency
+# [[3000]] Leveling - Salvagable
+# [[3100]] Leveling - Hide outdated leveling flasks
+# [[3200]] Leveling - Life Mana Flasks
+#   [3201] Life flasks
+#   [3202] Mana flasks
+#   [3203] Charms
+# [[3300]] Leveling - Rules
+#   [3301] Rares - Decorators
+#   [3302] Rares - Universal
+#   [3303] Rares - Other
+# [[3400]] Leveling - Useful magic and normal items
+#   [3401] Decorators
+#   [3402] Purpose Picked Items
+#   [3403] Conditional Rules
+#   [3404] Others
+#   [3405] Hide All known Section
+#   [3406] Show All unknown Section
 
 #===============================================================================================================
 # [[0100]] Gold
@@ -298,7 +298,7 @@ Show # $type->chancing $tier->chancea
 #	Mirrored False
 #	Corrupted False
 #	Rarity Normal
-#	BaseType == "Heavy Belt" "Sapphire Ring"
+#	BaseType == "Heavy Belt" "Rampart Tower Shield" "Sapphire Ring"
 #	SetFontSize 40
 #	SetBorderColor 0 200 95
 #	PlayAlertSound 3 300
@@ -425,12 +425,13 @@ Show # %D5 $type->endgame->charms $tier->hight1charms
 #	SetBackgroundColor 10 60 40
 
 #===============================================================================================================
-# [[0700]] Salvagables
+# [[0700]] Normal and Magic Items: Endgame
 #===============================================================================================================
+
+#------------------------------------
+#   [0701] Salvagables
+#------------------------------------
 # !! Waypoint c4.gear.salvagable : "Salvagable bases (Endgame)"
-#===============================================================================================================
-# [[0800]] Normal and Magic Crafting bases
-#===============================================================================================================
 
 # Double Quality Currencies
 
@@ -552,7 +553,7 @@ Show # %D5 $type->endgame->salvagable $tier->quality2armorany
 #	SetBorderColor 127 127 127
 
 #------------------------------------
-#   [0801] Hide Crafting Bases
+#   [0702] Custom Hiders
 #------------------------------------
 
 #Hide # $type->endgame->conditionalhiders->crafting $tier->hideweaponsbytype
@@ -637,7 +638,7 @@ Show # %D5 $type->endgame->salvagable $tier->quality2armorany
 #	SetBackgroundColor 20 20 0 0
 
 #------------------------------------
-#   [0802] Normal, Magic Crafting Decorators
+#   [0703] Normal, Magic Crafting Decorators
 #------------------------------------
 # !! Waypoint c4.gear.crafting.decorators : "Crafting Decorators - Visual override for crafting items"
 
@@ -701,7 +702,7 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorjwlry
 	Continue
 
 #------------------------------------
-#   [0803] Additional High Value Rules
+#   [0704] Additional High Value Rules
 #------------------------------------
 
 Show # %D5 $type->endgame->normalcraft->extra $tier->wands
@@ -713,7 +714,7 @@ Show # %D5 $type->endgame->normalcraft->extra $tier->wands
 	SetBorderColor 122 87 0
 
 #------------------------------------
-#   [0804] Normal, Magic Crafting: Level 82+
+#   [0705] Normal, Magic Crafting: Level 82+
 #------------------------------------
 # !! Waypoint c4.gear.crafting.all : "Crafting Bases - Handpicked Magic and Normal Bases"
 
@@ -744,7 +745,7 @@ Show # %D5 $type->endgame->normalcraft->extra $tier->wands
 #	BaseType == "Adherent's Raiment" "Adorned Wraps" "Ancient Mitts" "Anvil Maul" "Ashen Staff" "Avian Mask" "Avian Targe" "Baroque Gloves" "Bastion Sabatons" "Bladeguard Buckler" "Bolting Quarterstaff" "Bone Wand" "Bound Leggings" "Cambric Wraps" "Cannonade Crossbow" "Captain Gauntlets" "Carved Greaves" "Cavalry Bow" "Crown Mace" "Cultist Focus" "Deerstalker Hood" "Dunerunner Sandals" "Elegant Greathelm" "Elegant Greaves" "Elegant Slippers" "Engraved Crossbow" "Fanatic Bow" "Feathered Mitts" "Flanged Mace" "Gladiatoral Helm" "Glowering Crest Shield" "Gold Gloves" "Goldwork Sabatons" "Goldworked Tower Shield" "Guardian Quarterstaff" "Hallowed Focus" "Hatungo Garb" "Heavy Plate" "Heirloom Cuffs" "Helix Spear" "Inquisitor Crown" "Ironwood Shortbow" "Jingling Buckler" "Jungle Tiara" "Massive Spear" "Molten Hammer" "Noble Greathelm" "Noble Tower Shield" "Ornate Cuffs" "Plated Vestments" "Refined Bracers" "Ruination Maul" "Runner Vest" "Sacred Maul" "Sandsworn Tiara" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Silverbuckled Shoes" "Sinister Quarterstaff" "Spiked Bracers" "Stout Crossbow" "Studded Boots" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Wrapped Cap" "Zealot Gauntlets"
 
 #------------------------------------
-#   [0805] Normal, Magic Crafting: Optional Rules
+#   [0706] Normal, Magic Crafting: Optional Rules
 #------------------------------------
 # Matrix pauses: Optional: highlight +5minion bases for sumonners (81)
 
@@ -757,7 +758,7 @@ Show # %D5 $type->endgame->normalcraft->extra $tier->wands
 #	SetBorderColor 122 87 0
 
 #------------------------------------
-#   [0806] Normal, Magic Crafting: Endgame Progression
+#   [0707] Normal, Magic Crafting: Endgame Progression
 #------------------------------------
 # Matrix proceeds here. Best available bases
 
@@ -788,7 +789,7 @@ Show # %D5 $type->endgame->normalcraft->extra $tier->wands
 #	AreaLevel <= 70
 
 #------------------------------------
-#   [0807] Normal, Magic Crafting: Rings+Amulets
+#   [0708] Normal, Magic Crafting: Rings+Amulets
 #------------------------------------
 # !! Waypoint c4.gear.jewellery : "Jewellery - Endgame Magic&Normal"
 
@@ -854,7 +855,7 @@ Show # %D5 $type->endgame->jewellery $tier->ringamut2
 #	SetFontSize 38
 
 #------------------------------------
-#   [0808] Normal, Magic Crafting: Belts
+#   [0709] Normal, Magic Crafting: Belts
 #------------------------------------
 
 Show # %D5 $type->endgame->jewellery $tier->beltst1ideallevel
@@ -915,7 +916,7 @@ Show # %D5 $type->endgame->jewellery $tier->beltst2ideallevel
 #	SetFontSize 38
 
 #------------------------------------
-#   [0809] Normal, Magic Crafting: Decorator Removers
+#   [0710] Normal, Magic Crafting: Decorator Removers
 #------------------------------------
 
 Show # $type->endgame->normalcraft->decorator $tier->magicdecoratorremover
@@ -943,7 +944,7 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorremover
 	Continue
 
 #===============================================================================================================
-# [[0900]] Hide Layer 1 - Normal and Magic Endgame Gear
+# [[0800]] Hide Layer 1 - Normal and Magic Endgame Gear
 #===============================================================================================================
 # !! Waypoint c5.hidelayer.normalmagic : "HIDELAYER - All other endgame equipment normal&magic items"
 
@@ -966,7 +967,7 @@ Hide # $type->hidelayer $tier->normalmagicendgame
 	DisableDropSound True
 
 #===============================================================================================================
-# [[1000]] Rare Item Decorators
+# [[0900]] Rare Item Decorators
 #===============================================================================================================
 # !! Waypoint c6.rare.decorator.all : "Rare Endgame Items - Decorators"
 
@@ -1053,7 +1054,7 @@ Show # $type->decorators->rareeg $tier->corruptedraresimplicit
 	Continue
 
 #===============================================================================================================
-# [[1100]] Endgame - Conditional Hide Layers
+# [[1000]] Endgame - Conditional Hide Layers
 #===============================================================================================================
 # !! Waypoint c6.rare.optionalhide : "Rare Endgame Items - (Optional) Hiding Corrupted and Mirrored Items"
 
@@ -1076,7 +1077,7 @@ Show # $type->decorators->rareeg $tier->corruptedraresimplicit
 #	SetBackgroundColor 20 20 0 0
 
 #===============================================================================================================
-# [[1200]] Endgame - Rare - Jewellery
+# [[1100]] Endgame - Rare - Jewellery
 #===============================================================================================================
 # !! Waypoint c6.rare.jewellery.all : "Rare Endgame Items - Amulets, Rings"
 
@@ -1197,7 +1198,7 @@ Show # %D5 $type->rr->belts $tier->t1
 #	SetBackgroundColor 20 20 0 255
 
 #===============================================================================================================
-# [[1300]] Endgame - Rare - Gear - Droplevel Hiding
+# [[1200]] Endgame - Rare - Gear - Droplevel Hiding
 #===============================================================================================================
 # !! Waypoint c6.rare.drophiders : "Rare Endgame Items - Hide low items on high levels"
 
@@ -1269,7 +1270,7 @@ Show # %D5 $type->rr->belts $tier->t1
 #	SetBackgroundColor 20 20 0 0
 
 #===============================================================================================================
-# [[1400]] Endgame - Rare - Gear
+# [[1300]] Endgame - Rare - Gear
 #===============================================================================================================
 # !! Waypoint c6.rare.t1.all : "Rare Endgame Items - T1 (75ish+ gear)
 
@@ -1411,7 +1412,7 @@ Show # %D5 $type->rr $tier->t1_top
 #	SetBackgroundColor 35 35 35 240
 
 #===============================================================================================================
-# [[1500]] Untiered Rare Catcher
+# [[1400]] Untiered Rare Catcher
 #===============================================================================================================
 # !! Waypoint c6.rare.rest : "Rare Endgame Items - Others, Salvagable bases"
 
@@ -1498,7 +1499,7 @@ Show # %D5 $type->rare->salvagable $tier->quality2armorany
 #	SetBorderColor 127 127 127
 
 #===============================================================================================================
-# [[1600]] Hide Layer 2 - Rare Gear
+# [[1500]] Hide Layer 2 - Rare Gear
 #===============================================================================================================
 
 #Show # %D0 $type->lowstrictnessshowlayer $tier->raresendgameany
@@ -1520,7 +1521,7 @@ Hide # $type->hidelayer $tier->raresendgame
 	DisableDropSound True
 
 #===============================================================================================================
-# [[1700]] Socketables - Runes and Soul Cores
+# [[1600]] Socketables - Runes and Soul Cores
 #===============================================================================================================
 # !! Waypoint c7.miscgear.socketables : "Socketables - Runes and Soul Cores"
 
@@ -1546,7 +1547,7 @@ Hide # $type->hidelayer $tier->raresendgame
 
 Show # $type->sockets->general $tier->s
 	Class == "Socketable"
-	BaseType == "Soul Core of Azcapa"
+	BaseType == "Soul Core of Azcapa" "Soul Core of Ticaba"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -1557,7 +1558,7 @@ Show # $type->sockets->general $tier->s
 
 Show # $type->sockets->general $tier->a
 	Class == "Socketable"
-	BaseType == "Soul Core of Puhuarte"
+	BaseType == "Soul Core of Xopec"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -1568,7 +1569,7 @@ Show # $type->sockets->general $tier->a
 
 Show # $type->sockets->general $tier->b
 	Class == "Socketable"
-	BaseType == "Soul Core of Cholotl" "Soul Core of Jiquani" "Soul Core of Quipolatl" "Soul Core of Ticaba" "Soul Core of Tzamoto" "Soul Core of Zantipi"
+	BaseType == "Soul Core of Atmohua" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1579,7 +1580,7 @@ Show # $type->sockets->general $tier->b
 
 Show # %H6 $type->sockets->general $tier->c
 	Class == "Socketable"
-	BaseType == "Bear Talisman" "Boar Talisman" "Cat Talisman" "Fox Talisman" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Storm Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rabbit Talisman" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Citaqualotl" "Soul Core of Opiloti" "Soul Core of Tacati" "Soul Core of Topotante" "Soul Core of Xopec" "Soul Core of Zalatl" "Stag Talisman" "Wolf Talisman"
+	BaseType == "Bear Talisman" "Boar Talisman" "Cat Talisman" "Fox Talisman" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Storm Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rabbit Talisman" "Serpent Talisman" "Soul Core of Cholotl" "Soul Core of Opiloti" "Soul Core of Topotante" "Stag Talisman" "Wolf Talisman"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1615,7 +1616,7 @@ Hide # %H3 $type->sockets->general $tier->supplylow
 
 Hide # $type->sockets->general $tier->exhide
 	Class == "Socketable"
-	BaseType == "Adept Rune" "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Desert Rune" "Fox Talisman" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rabbit Talisman" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Ticaba" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
+	BaseType == "Adept Rune" "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Desert Rune" "Fox Talisman" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rabbit Talisman" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -1631,7 +1632,7 @@ Show # $type->sockets->general $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[1800]] Jewels
+# [[1700]] Jewels
 #===============================================================================================================
 # !! Waypoint c7.jewels.generic.all : "Jewels"
 
@@ -1698,7 +1699,7 @@ Show # %H5 $type->jewels->generic $tier->anymagic
 	MinimapIcon 1 Blue Diamond
 
 #===============================================================================================================
-# [[1900]] Relics
+# [[1800]] Relics
 #===============================================================================================================
 # !! Waypoint c7.relics.generic.all : "Relics (Trial of the Sekhema)"
 # Relics currently are not hidable, due to an ingame limitation.
@@ -1712,7 +1713,7 @@ Show # $type->relics->generic $tier->any
 	PlayEffect Blue Temp
 
 #===============================================================================================================
-# [[2000]] Gems and Uncut Gems
+# [[1900]] Gems and Uncut Gems
 #===============================================================================================================
 # !! Waypoint c8.gems.uncut : "Gems - Uncut"
 
@@ -1922,12 +1923,12 @@ Show # $type->gems $tier->any
 	MinimapIcon 1 Cyan Triangle
 
 #===============================================================================================================
-# [[2100]] Waystones
+# [[2000]] Waystones
 #===============================================================================================================
 # !! Waypoint c9.waystones.all : "Waystones - Override All"
 
 #===============================================================================================================
-# [[2200]] Normal Waystone Progression
+# [[2100]] Normal Waystone Progression
 #===============================================================================================================
 # !! Waypoint c9.waystone.special : "Waystones - Override Hider Rules"
 
@@ -1946,7 +1947,7 @@ Show # $type->gems $tier->any
 #	SetBackgroundColor 20 20 0 0
 
 #------------------------------------
-#   [2201] Generic Decorators
+#   [2101] Generic Decorators
 #------------------------------------
 # !! Waypoint c9.waystone.decorators.all : "Waystones - Decorators"
 
@@ -2138,7 +2139,7 @@ Show # $type->waystones $tier->deco_corruptedmod
 	Continue
 
 #------------------------------------
-#   [2202] Special Maps
+#   [2102] Special Maps
 #------------------------------------
 
 Show # $type->waystones $tier->enchanted1
@@ -2194,7 +2195,7 @@ Hide # %H4 $type->waystones $tier->corrupted8
 	SetBackgroundColor 200 200 200 255
 
 #------------------------------------
-#   [2203] Waystone progression
+#   [2103] Waystone progression
 #------------------------------------
 # !! Waypoint c9.waystone.generic.t16 : "Waystones - t15-t16"
 
@@ -2337,7 +2338,7 @@ Show # $type->waystones $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[2300]] Currency - Exceptions - Leveling Currencies
+# [[2200]] Currency - Exceptions - Leveling Currencies
 #===============================================================================================================
 # !! Waypoint c9.currency.leveling.nonstacked : "Tierlist - Currency - Leveling Currency"
 
@@ -2377,7 +2378,7 @@ Show # %D5 $type->currency->leveling $tier->rare
 #	SetTextColor 170 158 130
 
 #===============================================================================================================
-# [[2400]] Currency - Regular Currency Tiering
+# [[2300]] Currency - Regular Currency Tiering
 #===============================================================================================================
 # !! Waypoint c9.currency.single : "Tierlist - Currency - General"
 
@@ -2405,7 +2406,7 @@ Show # $type->currency $tier->a
 
 Show # $type->currency $tier->b
 	Class == "Stackable Currency"
-	BaseType == "Chaos Orb" "Exotic Coinage"
+	BaseType == "Exotic Coinage" "Fracturing Orb" "Orb of Chance"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2416,7 +2417,7 @@ Show # $type->currency $tier->b
 
 Show # $type->currency $tier->c
 	Class == "Stackable Currency"
-	BaseType == "Exalted Orb" "Fracturing Orb" "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
+	BaseType == "Chaos Orb" "Exalted Orb" "Gemcutter's Prism" "Orb of Annulment"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2476,16 +2477,16 @@ Hide # $type->currency $tier->exhide
 	SetBackgroundColor 20 20 0 0
 
 #===============================================================================================================
-# [[2500]] Currency - SPECIAL
+# [[2400]] Currency - SPECIAL
 #===============================================================================================================
 #------------------------------------
-#   [2501] Distilled Emotions (Delirium)
+#   [2401] Distilled Emotions (Delirium)
 #------------------------------------
 # !! Waypoint c9.currency.emotions.all : "Tierlist - Distilled Emotions (Delirium)"
 
 Show # $type->currency->emotions $tier->s
 	Class == "Stackable Currency"
-	BaseType == "Distilled Isolation"
+	BaseType == "Distilled Isolation" "Distilled Suffering"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -2496,7 +2497,7 @@ Show # $type->currency->emotions $tier->s
 
 Show # $type->currency->emotions $tier->a
 	Class == "Stackable Currency"
-	BaseType == "Distilled Fear" "Distilled Suffering"
+	BaseType == "Distilled Fear"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2507,7 +2508,7 @@ Show # $type->currency->emotions $tier->a
 
 Show # $type->currency->emotions $tier->b
 	Class == "Stackable Currency"
-	BaseType == "Distilled Despair" "Distilled Disgust"
+	BaseType == "Distilled Despair"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2518,7 +2519,7 @@ Show # $type->currency->emotions $tier->b
 
 Show # %H6 $type->currency->emotions $tier->c
 	Class == "Stackable Currency"
-	BaseType == "Distilled Envy" "Distilled Greed" "Distilled Ire" "Distilled Paranoia"
+	BaseType == "Distilled Disgust" "Distilled Envy" "Distilled Greed" "Distilled Paranoia"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2529,7 +2530,7 @@ Show # %H6 $type->currency->emotions $tier->c
 
 Show # %H5 $type->currency->emotions $tier->d
 	Class == "Stackable Currency"
-	BaseType == "Distilled Guilt"
+	BaseType == "Distilled Guilt" "Distilled Ire"
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2564,7 +2565,7 @@ Show # $type->currency->emotions $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #------------------------------------
-#   [2502] Catalysts (breach)
+#   [2402] Catalysts (breach)
 #------------------------------------
 # !! Waypoint c9.currency.catalysts.all : "Tierlist - Catalysts (Breach)"
 
@@ -2643,13 +2644,13 @@ Show # $type->currency->catalysts $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #------------------------------------
-#   [2503] Essences
+#   [2403] Essences
 #------------------------------------
 # !! Waypoint c9.currency.essences.all : "Tierlist - Essences"
 
 Show # $type->currency->essence $tier->s
 	Class == "Stackable Currency"
-	BaseType == "Essence of Delirium" "Essence of Horror" "Essence of Insanity"
+	BaseType == "Essence of Delirium" "Essence of Hysteria" "Essence of Insanity"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -2660,7 +2661,7 @@ Show # $type->currency->essence $tier->s
 
 Show # $type->currency->essence $tier->a
 	Class == "Stackable Currency"
-	BaseType == "Essence of Hysteria"
+	BaseType == "Essence of Horror"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2671,7 +2672,7 @@ Show # $type->currency->essence $tier->a
 
 Show # $type->currency->essence $tier->b
 	Class == "Stackable Currency"
-	BaseType == "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Torment"
+	BaseType == "Greater Essence of Battle" "Greater Essence of Electricity" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Torment"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2682,7 +2683,7 @@ Show # $type->currency->essence $tier->b
 
 Show # $type->currency->essence $tier->c
 	Class == "Stackable Currency"
-	BaseType == "Essence of Flames" "Essence of Haste" "Greater Essence of Battle" "Greater Essence of Electricity" "Greater Essence of Enhancement" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Sorcery" "Greater Essence of the Infinite" "Greater Essence of the Mind"
+	BaseType == "Essence of Battle" "Essence of Flames" "Essence of Haste" "Essence of Ruin" "Essence of Sorcery" "Essence of Torment" "Greater Essence of Enhancement" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Sorcery" "Greater Essence of the Body" "Greater Essence of the Infinite" "Greater Essence of the Mind"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2693,7 +2694,7 @@ Show # $type->currency->essence $tier->c
 
 Show # %H6 $type->currency->essence $tier->d
 	Class == "Stackable Currency"
-	BaseType == "Essence of Battle" "Essence of Electricity" "Essence of Enhancement" "Essence of Ice" "Essence of Ruin" "Essence of Sorcery" "Essence of the Body" "Essence of the Infinite" "Essence of the Mind" "Essence of Torment" "Greater Essence of the Body"
+	BaseType == "Essence of Electricity" "Essence of Enhancement" "Essence of Ice" "Essence of the Body" "Essence of the Infinite" "Essence of the Mind"
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2728,7 +2729,7 @@ Show # $type->currency->essence $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #------------------------------------
-#   [2504] Omen (ritual)
+#   [2404] Omen (ritual)
 #------------------------------------
 # !! Waypoint c9.currency.omen.all : "Tierlist - Omen (Ritual)"
 
@@ -2810,7 +2811,7 @@ Show # $type->currency->omen $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[2600]] Misc Map Like
+# [[2500]] Misc Map Like
 #===============================================================================================================
 # !! Waypoint c10.fragments.special : "Special Keys - Pinnacle, Logbook"
 
@@ -2856,12 +2857,12 @@ Show # %HS5 $type->maplike->special $tier->logbookslow
 	MinimapIcon 1 Orange Pentagon
 
 #===============================================================================================================
-# [[2700]] Uniques
+# [[2600]] Uniques
 #===============================================================================================================
 # !! Waypoint c11.uniques.all : "Tierlist - Uniques - All"
 
 #------------------------------------
-#   [2701] Exceptions #1
+#   [2601] Exceptions #1
 #------------------------------------
 
 Show # $type->uniques $tier->sekhemaring
@@ -2877,13 +2878,13 @@ Show # $type->uniques $tier->sekhemaring
 	MinimapIcon 0 Yellow Star
 
 #------------------------------------
-#   [2702] Tier 1 and 2 uniques
+#   [2602] Tier 1 and 2 uniques
 #------------------------------------
 # !! Waypoint c11.uniques.t1 : "Tierlist - Uniques - T1, T2"
 
 Show # $type->uniques $tier->t1
 	Rarity Unique
-	BaseType == "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Embroidered Gloves" "Emerald" "Fine Bracers" "Garment" "Gold Amulet" "Grand Visage" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Magus Tiara" "Ornate Belt" "Rampart Tower Shield" "Ring" "Sacred Focus" "Sapphire" "Silver Charm" "Smuggler Coat" "Stone Charm" "Stone Tower Shield" "Timeless Jewel" "Time-Lost Diamond" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Velvet Cap"
+	BaseType == "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Embroidered Gloves" "Emerald" "Fine Bracers" "Golden Charm" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ornate Belt" "Ornate Gauntlets" "Ring" "Sapphire" "Silver Charm" "Stone Charm" "Stone Tower Shield" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -2894,7 +2895,7 @@ Show # $type->uniques $tier->t1
 
 Show # $type->uniques $tier->t2
 	Rarity Unique
-	BaseType == "Array Buckler" "Burnished Gauntlets" "Closed Helm" "Conqueror Plate" "Decorated Helm" "Diamond" "Dualstring Bow" "Enlightened Robe" "Gauze Wraps" "Giant Maul" "Grand Manchettes" "Grand Regalia" "Havoc Raiment" "Helix Spear" "Jewelled Gloves" "Lattice Sandals" "Ornate Gauntlets" "Ruby" "Scalper's Jacket" "Spiked Club" "Spiral Wraps" "Spired Greathelm" "Thawing Charm" "Utility Belt" "Vase Relic" "Wyrm Quarterstaff"
+	BaseType == "Amethyst Charm" "Array Buckler" "Breach Precursor Tablet" "Burnished Gauntlets" "Conqueror Plate" "Coral Circlet" "Diamond" "Expedition Precursor Tablet" "Furtive Wraps" "Garment" "Giant Maul" "Gold Amulet" "Helix Spear" "Jewelled Gloves" "Lattice Sandals" "Magus Tiara" "Overseer Precursor Tablet" "Precursor Tablet" "Rampart Tower Shield" "Ritual Precursor Tablet" "Ruby" "Sacred Focus" "Smuggler Coat" "Spiked Club" "Spiral Wraps" "Spired Greathelm" "Spiritbone Crown" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Trimmed Greaves" "Utility Belt" "Vase Relic" "Velvet Cap" "Wyrm Quarterstaff"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2904,12 +2905,12 @@ Show # $type->uniques $tier->t2
 	MinimapIcon 0 Yellow Star
 
 #------------------------------------
-#   [2703] Multi-Unique bases.
+#   [2603] Multi-Unique bases.
 #------------------------------------
 
 Show # $type->uniques $tier->multispecialhigh
 	Rarity Unique
-	BaseType == "Amethyst Ring" "Bloodstone Amulet" "Heavy Belt" "Pearl Ring" "Sapphire Ring" "Stellar Amulet"
+	BaseType == "Heavy Belt" "Jade Amulet" "Pearl Ring" "Stellar Amulet"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2920,7 +2921,7 @@ Show # $type->uniques $tier->multispecialhigh
 
 Show # $type->uniques $tier->multispecial
 	Rarity Unique
-	BaseType == "Crimson Amulet" "Crude Bow" "Emerald Ring" "Gold Ring" "Jade Amulet" "Lazuli Ring" "Solar Amulet" "Topaz Ring" "Torment Club" "Wide Belt"
+	BaseType == "Amethyst Ring" "Bloodstone Amulet" "Crimson Amulet" "Crude Bow" "Emerald Ring" "Gold Ring" "Lazuli Ring" "Sapphire Ring" "Solar Amulet" "Topaz Ring" "Tribal Mask"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2930,7 +2931,7 @@ Show # $type->uniques $tier->multispecial
 	MinimapIcon 1 Blue Star
 
 #------------------------------------
-#   [2704] Low tier exceptions
+#   [2604] Low tier exceptions
 #------------------------------------
 # !! Waypoint c11.uniques.t1 : "Tierlist - Uniques - Low Tier Uniques"
 
@@ -2958,12 +2959,12 @@ Show # $type->uniques $tier->corrupteduniques
 	MinimapIcon 1 Brown Star
 
 #------------------------------------
-#   [2705] Tier 3 uniques 
+#   [2605] Tier 3 uniques 
 #------------------------------------
 
 Show # %H5 $type->uniques $tier->t3boss
 	Rarity Unique
-	BaseType == "Chain Tiara" "Crucible Tower Shield" "Explorer Armour" "Furtive Wraps" "Grand Cuisses" "Knight Armour" "Lapis Amulet" "Moulded Mitts" "Omen Crest Shield" "Shrine Sceptre" "Silk Robe" "Tribal Mask" "Visceral Quiver"
+	BaseType == "Chain Tiara" "Closed Helm" "Crucible Tower Shield" "Explorer Armour" "Grand Cuisses" "Grand Manchettes" "Grand Regalia" "Grand Visage" "Linen Wraps" "Omen Crest Shield" "Shrine Sceptre" "Silk Robe" "Visceral Quiver" "Wide Belt"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -2974,7 +2975,7 @@ Show # %H5 $type->uniques $tier->t3boss
 
 Show # %H5 $type->uniques $tier->t3
 	Rarity Unique
-	BaseType == "Altar Robe" "Amethyst Charm" "Amphora Relic" "Antidote Charm" "Azure Amulet" "Barbed Spear" "Bolstered Mitts" "Coffer Relic" "Coral Circlet" "Corsair Cap" "Double Belt" "Dousing Charm" "Fanatic Bow" "Felt Cap" "Forked Spear" "Gold Circlet" "Grounding Charm" "Heraldric Tower Shield" "Iron Greaves" "Iron Ring" "Lace Hood" "Prismatic Ring" "Ruby Charm" "Sapphire Charm" "Seal Relic" "Secured Leggings" "Solid Mask" "Spined Bracers" "Staunching Charm" "Stone Greaves" "Tapestry Relic" "Topaz Charm" "Trimmed Greaves" "Voodoo Focus" "Winged Spear" "Wrapped Greathelm"
+	BaseType == "Altar Robe" "Amphora Relic" "Antidote Charm" "Azure Amulet" "Bolstered Mitts" "Coffer Relic" "Corsair Cap" "Double Belt" "Dousing Charm" "Enlightened Robe" "Fanatic Bow" "Felt Cap" "Forked Spear" "Gold Circlet" "Grounding Charm" "Heavy Crown" "Heraldric Tower Shield" "Iron Greaves" "Iron Ring" "Moulded Mitts" "Prismatic Ring" "Ruby Charm" "Sapphire Charm" "Seal Relic" "Secured Leggings" "Solid Mask" "Spined Bracers" "Staunching Charm" "Stone Greaves" "Tapestry Relic" "Topaz Charm" "Torment Club" "Voodoo Focus" "Wrapped Greathelm"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -2984,12 +2985,12 @@ Show # %H5 $type->uniques $tier->t3
 	MinimapIcon 1 Brown Star
 
 #------------------------------------
-#   [2706] Tier 4 uniques
+#   [2606] Tier 4 uniques
 #------------------------------------
 
 Hide # %H4 $type->uniques $tier->hideable
 	Rarity Unique
-	BaseType == "Acrid Wand" "Aged Cuffs" "Amber Amulet" "Anchorite Garb" "Antler Focus" "Ashen Staff" "Attuned Wand" "Barricade Tower Shield" "Beaded Circlet" "Blazon Crest Shield" "Blunt Quiver" "Bone Raiment" "Bone Wand" "Braced Sabatons" "Braced Tower Shield" "Brimmed Helm" "Broadhead Quiver" "Bronze Greaves" "Chain Mail" "Champion Cuirass" "Chiming Staff" "Cleric Vestments" "Cloaked Mail" "Composite Bow" "Corvus Mantle" "Covert Hood" "Cowled Helm" "Crescent Quarterstaff" "Crescent Targe" "Crumbling Maul" "Crystal Focus" "Cultist Crown" "Cultist Greathammer" "Diviner Cuffs" "Doubled Gauntlets" "Effigial Tower Shield" "Elementalist Robe" "Elite Greathelm" "Emblem Crest Shield" "Embossed Boots" "Engraved Focus" "Execratus Hammer" "Face Mask" "Feathered Robe" "Feathered Sandals" "Feathered Tiara" "Felled Greatclub" "Fierce Greathelm" "Fine Belt" "Fire Quiver" "Firm Bracers" "Forge Maul" "Full Plate" "Fur Plate" "Gelid Staff" "Gilded Vestments" "Goldcast Cuffs" "Gothic Quarterstaff" "Guarded Helm" "Hardwood Spear" "Hardwood Targe" "Heavy Crown" "Hermit Garb" "Hewn Mask" "Hexer's Robe" "Hooded Mask" "Horned Crown" "Hunter Hood" "Hunting Shoes" "Hunting Spear" "Intricate Gloves" "Iron Buckler" "Iron Crown" "Iron Cuirass" "Ironclad Vestments" "Ironhead Spear" "Jade Tiara" "Jingling Crest Shield" "Keth Raiment" "Laced Boots" "Lamellar Mail" "Layered Gauntlets" "Leaden Greathammer" "Leather Buckler" "Leather Vest" "Leatherbound Hood" "Linen Belt" "Linen Wraps" "Lizardscale Boots" "Long Belt" "Long Quarterstaff" "Lunar Amulet" "Mail Belt" "Mail Sabatons" "Mail Vestments" "Makeshift Crossbow" "Marabout Garb" "Maraketh Cuirass" "Martyr Crown" "Oak Greathammer" "Omen Sceptre" "Ornate Buckler" "Painted Tower Shield" "Pathfinder Coat" "Pauascale Gloves" "Pelage Targe" "Pilgrim Vestments" "Plate Belt" "Plate Gauntlets" "Plated Buckler" "Plated Mace" "Plated Raiment" "Pointed Maul" "Pyrophyte Staff" "Quilted Vest" "Raider Plate" "Rattling Sceptre" "Rawhide Belt" "Recurve Bow" "Rhoahide Coat" "Ringmail Gauntlets" "Riveted Mitts" "Rogue Armour" "Rope Cuffs" "Rough Greaves" "Ruby Ring" "Rusted Cuirass" "Rusted Greathelm" "Sacral Quiver" "Sacrificial Mantle" "Scale Mail" "Scout's Vest" "Sectioned Bracers" "Serpentscale Coat" "Shabby Hood" "Shaman Mantle" "Shielded Helm" "Shortbow" "Shrouded Vest" "Sigil Crest Shield" "Silk Slippers" "Slim Mace" "Smithing Hammer" "Soldier Greathelm" "Sombre Gloves" "Spiked Buckler" "Spiritbone Crown" "Splintered Tower Shield" "Stacked Sabatons" "Steel Plate" "Steelpoint Quarterstaff" "Steeltoe Boots" "Stitched Gloves" "Straw Sandals" "Strider Vest" "Studded Greatclub" "Studded Vest" "Suede Bracers" "Tattered Robe" "Tempered Mitts" "Temple Maul" "Tense Crossbow" "Threaded Shoes" "Tideseer Mantle" "Titan Mitts" "Tonal Focus" "Torn Gloves" "Twig Circlet" "Twig Focus" "Vaal Cuirass" "Vagabond Armour" "Veiled Mask" "Velour Shoes" "Visored Helm" "Volatile Wand" "Voltaic Staff" "Votive Raiment" "War Spear" "Warpick" "Warrior Greathelm" "Waxed Jacket" "Wayfarer Jacket" "Wicker Tiara" "Withered Wand" "Wooden Buckler" "Wooden Club" "Woven Focus" "Wrapped Quarterstaff" "Wrapped Sandals" "Zealot Bow"
+	BaseType == "Acrid Wand" "Aged Cuffs" "Amber Amulet" "Anchorite Garb" "Antler Focus" "Ashen Staff" "Attuned Wand" "Barbed Spear" "Barricade Tower Shield" "Beaded Circlet" "Blazon Crest Shield" "Blunt Quiver" "Bone Raiment" "Bone Wand" "Braced Sabatons" "Braced Tower Shield" "Brimmed Helm" "Broadhead Quiver" "Bronze Greaves" "Chain Mail" "Champion Cuirass" "Chiming Staff" "Cleric Vestments" "Cloaked Mail" "Composite Bow" "Corvus Mantle" "Covert Hood" "Cowled Helm" "Crescent Quarterstaff" "Crescent Targe" "Crumbling Maul" "Crystal Focus" "Cultist Crown" "Cultist Greathammer" "Decorated Helm" "Diviner Cuffs" "Doubled Gauntlets" "Dualstring Bow" "Effigial Tower Shield" "Elementalist Robe" "Elite Greathelm" "Emblem Crest Shield" "Embossed Boots" "Engraved Focus" "Execratus Hammer" "Face Mask" "Feathered Robe" "Feathered Sandals" "Feathered Tiara" "Felled Greatclub" "Fierce Greathelm" "Fine Belt" "Fire Quiver" "Firm Bracers" "Forge Maul" "Full Plate" "Fur Plate" "Gauze Wraps" "Gelid Staff" "Gilded Vestments" "Goldcast Cuffs" "Gothic Quarterstaff" "Guarded Helm" "Hardwood Spear" "Hardwood Targe" "Havoc Raiment" "Hermit Garb" "Hewn Mask" "Hexer's Robe" "Hooded Mask" "Horned Crown" "Hunter Hood" "Hunting Shoes" "Hunting Spear" "Intricate Gloves" "Iron Buckler" "Iron Crown" "Iron Cuirass" "Ironclad Vestments" "Ironhead Spear" "Jade Tiara" "Jingling Crest Shield" "Keth Raiment" "Knight Armour" "Lace Hood" "Laced Boots" "Lamellar Mail" "Lapis Amulet" "Layered Gauntlets" "Leaden Greathammer" "Leather Buckler" "Leather Vest" "Leatherbound Hood" "Linen Belt" "Lizardscale Boots" "Long Belt" "Long Quarterstaff" "Lunar Amulet" "Mail Belt" "Mail Sabatons" "Mail Vestments" "Makeshift Crossbow" "Marabout Garb" "Maraketh Cuirass" "Martyr Crown" "Oak Greathammer" "Omen Sceptre" "Ornate Buckler" "Painted Tower Shield" "Pathfinder Coat" "Pauascale Gloves" "Pelage Targe" "Pilgrim Vestments" "Plate Belt" "Plate Gauntlets" "Plated Buckler" "Plated Mace" "Plated Raiment" "Pointed Maul" "Pyrophyte Staff" "Quilted Vest" "Raider Plate" "Rattling Sceptre" "Rawhide Belt" "Recurve Bow" "Rhoahide Coat" "Ringmail Gauntlets" "Riveted Mitts" "Rogue Armour" "Rope Cuffs" "Rough Greaves" "Ruby Ring" "Rusted Cuirass" "Rusted Greathelm" "Sacral Quiver" "Sacrificial Mantle" "Scale Mail" "Scalper's Jacket" "Scout's Vest" "Sectioned Bracers" "Serpentscale Coat" "Shabby Hood" "Shaman Mantle" "Shielded Helm" "Shortbow" "Shrouded Vest" "Sigil Crest Shield" "Silk Slippers" "Slim Mace" "Smithing Hammer" "Soldier Greathelm" "Sombre Gloves" "Spiked Buckler" "Splintered Tower Shield" "Stacked Sabatons" "Steel Plate" "Steelpoint Quarterstaff" "Steeltoe Boots" "Stitched Gloves" "Straw Sandals" "Strider Vest" "Studded Greatclub" "Studded Vest" "Suede Bracers" "Tattered Robe" "Tempered Mitts" "Temple Maul" "Tense Crossbow" "Threaded Shoes" "Tideseer Mantle" "Titan Mitts" "Tonal Focus" "Torn Gloves" "Twig Circlet" "Twig Focus" "Vaal Cuirass" "Vagabond Armour" "Veiled Mask" "Velour Shoes" "Visored Helm" "Volatile Wand" "Voltaic Staff" "Votive Raiment" "War Spear" "Warpick" "Warrior Greathelm" "Waxed Jacket" "Wayfarer Jacket" "Wicker Tiara" "Winged Spear" "Withered Wand" "Wooden Buckler" "Wooden Club" "Woven Focus" "Wrapped Quarterstaff" "Wrapped Sandals" "Zealot Bow"
 	SetFontSize 40
 	SetTextColor 188 96 37 255
 
@@ -3004,7 +3005,7 @@ Show # $type->uniques $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[2800]] Splinters, Tablets, Fragments
+# [[2700]] Splinters, Tablets, Fragments
 #===============================================================================================================
 # !! Waypoint c10.fragments.most : "Fragments and Splinters"
 
@@ -3067,7 +3068,7 @@ Show # %HS5 $type->currency->splinter $tier->t5
 	MinimapIcon 1 White Kite
 
 Show # $type->fragments->generic $tier->s
-	BaseType == "Breachstone" "Simulacrum"
+	BaseType == "An Audience with the King" "Breachstone" "Simulacrum"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3077,7 +3078,7 @@ Show # $type->fragments->generic $tier->s
 	MinimapIcon 0 Red Star
 
 Show # $type->fragments->generic $tier->a
-	BaseType == "An Audience with the King" "Deadly Fate" "Expedition Precursor Tablet"
+	BaseType == "Expedition Precursor Tablet"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -3087,7 +3088,7 @@ Show # $type->fragments->generic $tier->a
 	MinimapIcon 0 Red Hexagon
 
 Show # $type->fragments->generic $tier->b
-	BaseType == "Breach Precursor Tablet" "Cowardly Fate" "Delirium Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet" "Victorious Fate"
+	BaseType == "Breach Precursor Tablet" "Cowardly Fate" "Deadly Fate" "Delirium Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet" "Victorious Fate"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3121,7 +3122,7 @@ Show # $type->fragments->generic $tier->b
 #	MinimapIcon 2 Grey Hexagon
 
 Hide # $type->fragments->generic $tier->exhide
-	BaseType == "Breach Precursor Tablet" "Cowardly Fate" "Delirium Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet" "Victorious Fate"
+	BaseType == "Breach Precursor Tablet" "Cowardly Fate" "Deadly Fate" "Delirium Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet" "Victorious Fate"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -3136,7 +3137,7 @@ Show # $type->fragments->generic $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[2900]] Misc Map Items
+# [[2800]] Misc Map Items
 #===============================================================================================================
 # !! Waypoint c10.ascendancy.all : "Trial Keys"
 
@@ -3222,7 +3223,7 @@ Show # $type->miscmapitemsextra $tier->relickeyssafe
 	MinimapIcon 0 Red Star
 
 #===============================================================================================================
-# [[3000]] Remaining Currency
+# [[2900]] Remaining Currency
 #===============================================================================================================
 
 Show # $type->currency $tier->restex
@@ -3236,7 +3237,7 @@ Show # $type->currency $tier->restex
 	MinimapIcon 0 Pink Pentagon
 
 #===============================================================================================================
-# [[3100]] Leveling - Salvagable
+# [[3000]] Leveling - Salvagable
 #===============================================================================================================
 # !! Waypoint c20.leveling.salvagable.all: "Leveling - Salvagable bases"
 
@@ -3339,7 +3340,7 @@ Show # %D5 $type->leveling->salvagable $tier->quality2flask
 #	SetBorderColor 180 180 180
 
 #===============================================================================================================
-# [[3200]] Leveling - Hide outdated leveling flasks
+# [[3100]] Leveling - Hide outdated leveling flasks
 #===============================================================================================================
 # !! Waypoint c20.leveling.flasks.hidelayer : "Leveling - All flask rules"
 
@@ -3394,10 +3395,10 @@ Hide # %H0 $type->hidelayer $tier->outdatedlevelflaske
 	DisableDropSound True
 
 #===============================================================================================================
-# [[3300]] Leveling - Life Mana Flasks
+# [[3200]] Leveling - Life Mana Flasks
 #===============================================================================================================
 #------------------------------------
-#   [3301] Life flasks
+#   [3201] Life flasks
 #------------------------------------
 # !! Waypoint c20.leveling.flasks.progression : "Leveling - Flask Progression"
 
@@ -3466,7 +3467,7 @@ Show # $type->leveling->flasks->life $tier->t8
 	SetBackgroundColor 10 60 40
 
 #------------------------------------
-#   [3302] Mana flasks
+#   [3202] Mana flasks
 #------------------------------------
 
 Show # $type->leveling->flasks->mana $tier->t1
@@ -3534,7 +3535,7 @@ Show # $type->leveling->flasks->mana $tier->t8
 	SetBackgroundColor 10 60 40
 
 #------------------------------------
-#   [3303] Charms
+#   [3203] Charms
 #------------------------------------
 # !! Waypoint c21.leveling.gear.all : "Leveling - Gear - All"
 
@@ -3555,10 +3556,10 @@ Show # $type->leveling->flasks->mana $tier->t8
 #	SetBackgroundColor 10 60 40
 
 #===============================================================================================================
-# [[3400]] Leveling - Rules
+# [[3300]] Leveling - Rules
 #===============================================================================================================
 #------------------------------------
-#   [3401] Rares - Decorators
+#   [3301] Rares - Decorators
 #------------------------------------
 # !! Waypoint c21.leveling.decorators.all : "Leveling - Rares - Decorators"
 
@@ -3592,7 +3593,7 @@ Show # $type->leveling->decorators->rare $tier->tinyrares
 	Continue
 
 #------------------------------------
-#   [3402] Rares - Universal
+#   [3302] Rares - Universal
 #------------------------------------
 
 # !! Waypoint c21.leveling.rares.jewellery : "Leveling - Rares - Belts, Rings, Amulets"
@@ -3760,7 +3761,7 @@ Show # %H5 $type->leveling->rare->armours $tier->anythingearly
 #	SetBackgroundColor 20 20 0 255
 
 #------------------------------------
-#   [3403] Rares - Other
+#   [3303] Rares - Other
 #------------------------------------
 # !! Waypoint c21.leveling.rares.low : "Leveling - Gear - Low Tier"
 
@@ -3771,10 +3772,10 @@ Hide # %H3 $type->leveling->rare->remaining $tier->any class == "body armours" "
 	SetBackgroundColor 35 35 35 240
 
 #===============================================================================================================
-# [[3500]] Leveling - Useful magic and normal items
+# [[3400]] Leveling - Useful magic and normal items
 #===============================================================================================================
 #------------------------------------
-#   [3501] Decorators
+#   [3401] Decorators
 #------------------------------------
 # !! Waypoint c21.leveling.magicvendor.all : "Leveling - Normal and Magic - Magic Vendor Items"
 
@@ -3817,7 +3818,7 @@ Show # $type->decorators->leveling->magic $tier->tiny
 	Continue
 
 #------------------------------------
-#   [3502] Purpose Picked Items
+#   [3402] Purpose Picked Items
 #------------------------------------
 
 # !! Waypoint c21.leveling.normalmagic : "Leveling - Remarkable Normal and Magic Gear"
@@ -3836,7 +3837,7 @@ Show # %D5 $type->leveling->normalmagicremarkable $tier->earlyboots
 	SetBackgroundColor 30 0 70 255
 
 #------------------------------------
-#   [3503] Conditional Rules
+#   [3403] Conditional Rules
 #------------------------------------
 # !! Waypoint c21.leveling.firstlevels.all : "Leveling - Normal and Magic - First Levels"
 
@@ -4027,7 +4028,7 @@ Show # %D5 $type->leveling->normalmagicremarkable $tier->earlyboots
 #	Class == "Quarterstaves"
 
 #------------------------------------
-#   [3504] Others
+#   [3404] Others
 #------------------------------------
 
 Show # %D5 $type->leveling->firstlevels $tier->firstareasmagic
@@ -4060,7 +4061,7 @@ Show # %D5 $type->leveling->firstlevels $tier->firstareasnormal
 
 # !! Waypoint c22.hide.all : "HIDELAYER - Hide all known untiered items"
 #------------------------------------
-#   [3505] Hide All known Section
+#   [3405] Hide All known Section
 #------------------------------------
 
 #Show # %D0 $type->lowstrictnessshowlayer $tier->anyfinal
@@ -4078,7 +4079,7 @@ Hide # $type->hidelayer $tier->final
 	DisableDropSound True
 
 #------------------------------------
-#   [3506] Show All unknown Section
+#   [3406] Show All unknown Section
 #------------------------------------
 # !! Waypoint c22.show.all : "SAFETYLAYER - Show all unknown items"
 # THIS ENTRY IS CAUGHT IN 3 CASES:
