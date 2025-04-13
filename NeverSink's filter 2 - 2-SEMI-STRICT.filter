@@ -251,14 +251,14 @@ Show
 	MinimapIcon 1 Green Diamond
 	SetFontSize 40
 
-#=================================
+##=================================
 # Body Armour
 #=================================
 Show
 	Rarity Rare
 	Class "Body Armour"
 	ItemLevel >= 81
-	BaseType "Sleek Jacket" "Wayfarer Jacket"
+	BaseType "Sleek Jacket" "Wayfarer Jacket" "Jacket"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -274,7 +274,7 @@ Show
 	Rarity Rare
 	Class "Boots"
 	ItemLevel >= 81
-	BaseType "Quickslip Shoes" "Threaded Shoes"
+	BaseType "Quickslip Shoes" "Threaded Shoes" "Shoes"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -290,7 +290,7 @@ Show
 	Rarity Rare
 	Class "Helmet"
 	ItemLevel >= 81
-	BaseType "Kamasan Tiara"
+	BaseType "Kamasan Tiara" "Mask"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -325,6 +325,34 @@ Show
 	PlayAlertSound 2 300
 	PlayEffect Green
 	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
+#=================================
+# Spears
+#=================================
+Show
+	Rarity >= Rare
+	Class "Spear"
+	ItemLevel >= 81	
+	SetTextColor 198 207 240
+	SetBorderColor 198 207 240
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
+
+Show
+	Rarity >= Rare
+	Class "Spear"
+	BaseType "Seaglass Spear"
+	ItemLevel >= 81	
+	SetTextColor 240 184 184
+	SetBorderColor 240 184 184
+	SetBackgroundColor 166 9 9
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 1 Red Square
 	SetFontSize 40
 	
 #===============================================================================================================
