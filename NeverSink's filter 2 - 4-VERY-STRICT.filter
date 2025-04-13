@@ -385,7 +385,7 @@ Show
 #===============================
 Show
 	Rarity Normal	
-	BaseType "Rampart Tower Shield"
+	BaseType "Rampart Tower Shield" "Stone Tower Shield"
 	SetTextColor 239 245 205
 	SetBorderColor 202 227 193
 	SetBackgroundColor 91 179 8
