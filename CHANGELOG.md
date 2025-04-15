@@ -7,6 +7,18 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.5** - TEN YEAR UPDATE
+----------------------------------
+
+## SHORT OVERVIEW:
+
+Ten years ago the first version of the filter was released. This update is a celebration of that. 
+
+To celebrate that, we've added a new style - "COBALT".
+
+Also there's further improvements to tiering and economy treatment!
+
+----------------------------------
 # **VERSION 0.7.4** - Tiering and Economy Update
 ----------------------------------
 
