@@ -412,9 +412,9 @@ Show
 # Spears
 #=================================
 Show
-	Rarity >= Rare
+	Rarity Normal
 	Class "Spear"
-	ItemLevel >= 81	
+	BaseType "Forked Spear"
 	SetTextColor 198 207 240
 	SetBorderColor 198 207 240
 	SetBackgroundColor 46 78 194
@@ -425,8 +425,7 @@ Show
 
 Show
 	Rarity >= Rare
-	Class "Spear"
-	BaseType "Seaglass Spear"
+	Class "Spear"	
 	ItemLevel >= 81	
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
