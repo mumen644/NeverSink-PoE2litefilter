@@ -3,14 +3,11 @@ template: |
   
   ## SHORT OVERVIEW:
   
-  This update focuses on further improving the tiering rules in the filter. If all goes well, starting with this update and the next days filterblade will have economy updated versions again.
+  Ten years ago the first version of the filter was released. This update is a celebration of that.
   
-  ## CHANGES:
-  - Further added safeguards to the automated tiering algorithm
-  - Tiered all economy based tierlists again
-  - Added all unique tablets to the filter (currently all in T2)
-  - Added the Rampart Tower Shield as a chancing base
-  - Further adjusted the architecture changes done in 0.7.2 to help with the sorting of rules
+  To celebrate that, we've added a new style - "COBALT".
+  
+  Also there's further improvements to tiering and economy treatment!
   
   ------
 
