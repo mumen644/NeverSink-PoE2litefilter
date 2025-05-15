@@ -7,6 +7,25 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.7** - Unidentified Item Tier
+----------------------------------
+
+## SHORT OVERVIEW:
+
+Introduced the new command 'UnidentifiedItemTier' into the filter. This command allows highlighting rare/magic items with the suffix (tier X).
+The initial implementation is a bit rough. It focuses on providing large scale highlight for high tier items and removes them from being hidden.
+
+Additionally you can customize this property pretty much everywhere on filterblade.
+
+You can expect a more thorough and implementation in the next league, that will likely break some existing changes.
+
+## CHANGES:
+- Added a new section "HighModtier"
+- The optional "ConditionalHiders" by default never hides items above Tier 3.
+- Introduced the UnidentifiedItemTier command in other niche spots, where it makes sense.
+- Restructured the filter a bit to make it ensure that crafting/hiding/tier highlights are playing nicely together.
+
+----------------------------------
 # **VERSION 0.7.6** - Tiering Improvements
 ----------------------------------
 
