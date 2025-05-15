@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.7.5
+# VERSION:  0.7.7
 # TYPE:     6-UBER-PLUS-STRICT
 # STYLE:    ZEN
 # AUTHOR:   NeverSink
@@ -241,6 +241,74 @@ Show # $type->artifact $tier->fishingrod
 #===============================================================================================================
 # [[0300]] Exotic Item States
 #===============================================================================================================
+# !! Waypoint c3.exotic.state.hightier : "Exotic State - Exceptionally High Modtier"
+
+Show # $type->exotic->others $tier->tier5rare
+	UnidentifiedItemTier >= 5
+	Rarity Rare
+	SetFontSize 45
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 0 Blue Diamond
+
+Show # $type->exotic->others $tier->tier4rare
+	UnidentifiedItemTier 4
+	Rarity Rare
+	SetFontSize 35
+	PlayAlertSound 3 300
+	PlayEffect Blue Temp
+	MinimapIcon 1 White Diamond
+
+#Show # %D4 $type->exotic->others $tier->tier23raretrinkets
+#	UnidentifiedItemTier >= 2
+#	Rarity Rare
+#	Class == "Amulets" "Belts" "Rings"
+#	SetFontSize 35
+#	PlayAlertSound 3 300
+#	PlayEffect Yellow
+#	MinimapIcon 1 White Diamond
+
+#Show # %D4 $type->exotic->others $tier->tier3rare
+#	UnidentifiedItemTier 3
+#	Rarity Rare
+#	SetFontSize 32
+
+#Show # %D3 $type->exotic->others $tier->tier2rare
+#	UnidentifiedItemTier 2
+#	Rarity Rare
+#	SetFontSize 32
+
+Show # $type->exotic->others $tier->tier5magic
+	UnidentifiedItemTier >= 5
+	Rarity Magic
+	SetFontSize 35
+	SetTextColor 0 240 190 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+
+Show # $type->exotic->others $tier->tier4magic
+	UnidentifiedItemTier 4
+	Rarity Magic
+	SetFontSize 35
+	SetBorderColor 136 136 255
+	PlayAlertSound 3 300
+	PlayEffect Blue Temp
+	MinimapIcon 1 White Diamond
+
+#Show # %D4 $type->exotic->others $tier->tier3magic
+#	UnidentifiedItemTier 3
+#	Rarity Magic
+#	SetFontSize 32
+#	SetBorderColor 136 136 255
+
+#Show # %D3 $type->exotic->others $tier->tier2magic
+#	UnidentifiedItemTier 2
+#	Rarity Magic
+#	SetBorderColor 136 136 255
+
 # !! Waypoint c3.exotic.state.all : "Exotic State - Double Corrupted, Overquality"
 
 Show # $type->exotic->others $tier->overqualityany
@@ -540,6 +608,7 @@ Show # %D6 $type->endgame->charms $tier->topqualitycharms
 #Hide # $type->endgame->conditionalhiders->crafting $tier->hideweaponsbytype
 #	Mirrored False
 #	Corrupted False
+#	UnidentifiedItemTier <= 2
 #	Rarity Normal Magic
 #	Class == "Bows" "Crossbows" "One Hand Maces" "Quarterstaves" "Quivers" "Sceptres" "Spears" "Staves" "Two Hand Maces" "Wands"
 #	AreaLevel >= 65
@@ -549,6 +618,7 @@ Show # %D6 $type->endgame->charms $tier->topqualitycharms
 #Hide # $type->endgame->conditionalhiders->crafting $tier->arhider
 #	Mirrored False
 #	Corrupted False
+#	UnidentifiedItemTier <= 2
 #	BaseEnergyShield 0
 #	BaseEvasion 0
 #	BaseArmour > 0
@@ -561,6 +631,7 @@ Show # %D6 $type->endgame->charms $tier->topqualitycharms
 #Hide # $type->endgame->conditionalhiders->crafting $tier->evhider
 #	Mirrored False
 #	Corrupted False
+#	UnidentifiedItemTier <= 2
 #	BaseEnergyShield 0
 #	BaseEvasion > 0
 #	BaseArmour 0
@@ -573,6 +644,7 @@ Show # %D6 $type->endgame->charms $tier->topqualitycharms
 #Hide # $type->endgame->conditionalhiders->crafting $tier->eshider
 #	Mirrored False
 #	Corrupted False
+#	UnidentifiedItemTier <= 2
 #	BaseEnergyShield > 0
 #	BaseEvasion 0
 #	BaseArmour 0
@@ -585,6 +657,7 @@ Show # %D6 $type->endgame->charms $tier->topqualitycharms
 #Hide # $type->endgame->conditionalhiders->crafting $tier->arevhider
 #	Mirrored False
 #	Corrupted False
+#	UnidentifiedItemTier <= 2
 #	BaseEnergyShield 0
 #	BaseEvasion > 0
 #	BaseArmour > 0
@@ -597,6 +670,7 @@ Show # %D6 $type->endgame->charms $tier->topqualitycharms
 #Hide # $type->endgame->conditionalhiders->crafting $tier->areshider
 #	Mirrored False
 #	Corrupted False
+#	UnidentifiedItemTier <= 2
 #	BaseEnergyShield > 0
 #	BaseEvasion 0
 #	BaseArmour > 0
@@ -609,6 +683,7 @@ Show # %D6 $type->endgame->charms $tier->topqualitycharms
 #Hide # $type->endgame->conditionalhiders->crafting $tier->eveshider
 #	Mirrored False
 #	Corrupted False
+#	UnidentifiedItemTier <= 2
 #	BaseEnergyShield > 0
 #	BaseEvasion > 0
 #	BaseArmour 0
@@ -1169,9 +1244,10 @@ Show # %D6 $type->rr->beltseg $tier->t1
 #===============================================================================================================
 # [[1200]] Endgame - Rare - Gear - Droplevel Hiding
 #===============================================================================================================
-# !! Waypoint c6.rare.drophiders : "Rare Endgame Items - Hide low items on high levels"
+# !! Waypoint c6.rare.drophiders : "Rare Endgame Items - Hide armor and weapon types easily"
 
 #Hide # $type->endgame->conditionalhiders->rare $tier->hideweaponsbytype
+#	UnidentifiedItemTier <= 2
 #	ItemLevel >= 65
 #	Rarity Rare
 #	Class == "Bows" "Crossbows" "One Hand Maces" "Quarterstaves" "Quivers" "Sceptres" "Spears" "Staves" "Two Hand Maces" "Wands"
@@ -1179,6 +1255,7 @@ Show # %D6 $type->rr->beltseg $tier->t1
 #	SetBackgroundColor 20 20 0 0
 
 #Hide # $type->endgame->conditionalhiders->rare $tier->arhider
+#	UnidentifiedItemTier <= 2
 #	ItemLevel >= 65
 #	BaseEnergyShield 0
 #	BaseEvasion 0
@@ -1189,6 +1266,7 @@ Show # %D6 $type->rr->beltseg $tier->t1
 #	SetBackgroundColor 20 20 0 0
 
 #Hide # $type->endgame->conditionalhiders->rare $tier->evhider
+#	UnidentifiedItemTier <= 2
 #	ItemLevel >= 65
 #	BaseEnergyShield 0
 #	BaseEvasion > 0
@@ -1199,6 +1277,7 @@ Show # %D6 $type->rr->beltseg $tier->t1
 #	SetBackgroundColor 20 20 0 0
 
 #Hide # $type->endgame->conditionalhiders->rare $tier->eshider
+#	UnidentifiedItemTier <= 2
 #	ItemLevel >= 65
 #	BaseEnergyShield > 0
 #	BaseEvasion 0
@@ -1209,6 +1288,7 @@ Show # %D6 $type->rr->beltseg $tier->t1
 #	SetBackgroundColor 20 20 0 0
 
 #Hide # $type->endgame->conditionalhiders->rare $tier->arevhider
+#	UnidentifiedItemTier <= 2
 #	ItemLevel >= 65
 #	BaseEnergyShield 0
 #	BaseEvasion > 0
@@ -1219,6 +1299,7 @@ Show # %D6 $type->rr->beltseg $tier->t1
 #	SetBackgroundColor 20 20 0 0
 
 #Hide # $type->endgame->conditionalhiders->rare $tier->areshider
+#	UnidentifiedItemTier <= 2
 #	ItemLevel >= 65
 #	BaseEnergyShield > 0
 #	BaseEvasion 0
@@ -1229,6 +1310,7 @@ Show # %D6 $type->rr->beltseg $tier->t1
 #	SetBackgroundColor 20 20 0 0
 
 #Hide # $type->endgame->conditionalhiders->rare $tier->eveshider
+#	UnidentifiedItemTier <= 2
 #	ItemLevel >= 65
 #	BaseEnergyShield > 0
 #	BaseEvasion > 0
@@ -1498,7 +1580,7 @@ Hide # $type->hidelayer $tier->raresendgame
 
 Show # $type->sockets->general $tier->s
 	Class == "Socketable"
-	BaseType == "Soul Core of Azcapa" "Soul Core of Ticaba"
+	BaseType == "Fox Talisman" "Rabbit Talisman" "Soul Core of Azcapa" "Soul Core of Ticaba"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -1530,7 +1612,7 @@ Show # $type->sockets->general $tier->b
 
 Show # %H6 $type->sockets->general $tier->c
 	Class == "Socketable"
-	BaseType == "Bear Talisman" "Boar Talisman" "Cat Talisman" "Fox Talisman" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Storm Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rabbit Talisman" "Serpent Talisman" "Soul Core of Cholotl" "Soul Core of Opiloti" "Soul Core of Topotante" "Stag Talisman" "Wolf Talisman"
+	BaseType == "Bear Talisman" "Boar Talisman" "Cat Talisman" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Storm Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Serpent Talisman" "Soul Core of Cholotl" "Soul Core of Opiloti" "Soul Core of Topotante" "Stag Talisman" "Wolf Talisman"
 	SetFontSize 35
 	SetTextColor 220 170 100 255
 	PlayAlertSound 2 300
@@ -1557,13 +1639,13 @@ Hide # %H3 $type->sockets->general $tier->supplylow
 
 Hide # $type->sockets->general $tier->exhide
 	Class == "Socketable"
-	BaseType == "Adept Rune" "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Desert Rune" "Fox Talisman" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rabbit Talisman" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
+	BaseType == "Adept Rune" "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Desert Rune" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
 Show # $type->sockets->general $tier->restex
 	Class == "Socketable"
-	BaseType "Rune" "Soul Core"
+	BaseType "Rune" "Soul Core" "Talisman"
 	SetFontSize 45
 	SetTextColor 0 255 255 255
 	SetBorderColor 0 255 255 255
@@ -2691,12 +2773,12 @@ Show # $type->currency->omen $tier->restex
 Show # $type->maplike->special $tier->vaultkeys
 	BaseType "Olroth's Reliquary Key" "Ritualistic Reliquary Key" "Tangmazu's Reliquary Key" "The Arbiter's Reliquary Key" "The Trialmaster's Reliquary Key" "Twilight Reliquary Key" "Xesht's Reliquary Key" "Zarokh's Reliquary Key"
 	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 6 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
+	SetTextColor 245 105 90 255
+	SetBorderColor 245 105 90 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Orange
+	MinimapIcon 0 Orange Pentagon
 
 Show # $type->maplike->special $tier->superkeys
 	Class == "Pinnacle Keys"
