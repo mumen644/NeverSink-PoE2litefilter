@@ -7,6 +7,13 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.7a** - Classes added to item tiers
+----------------------------------
+
+## SHORT OVERVIEW:
+The tiered overrides now all come with class requirements. This excludes precursor tablets and similar gear from accidently getting caught.
+
+----------------------------------
 # **VERSION 0.7.7** - Unidentified Item Tier
 ----------------------------------
 

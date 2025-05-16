@@ -2,19 +2,7 @@ template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
   ## SHORT OVERVIEW:
-  
-  Introduced the new command 'UnidentifiedItemTier' into the filter. This command allows highlighting rare/magic items with the suffix (tier X).
-  The initial implementation is a bit rough. It focuses on providing large scale highlight for high tier items and removes them from being hidden.
-  
-  Additionally you can customize this property pretty much everywhere on filterblade.
-  
-  You can expect a more thorough and implementation in the next league, that will likely break some existing changes.
-  
-  ## CHANGES:
-  - Added a new section "HighModtier"
-  - The optional "ConditionalHiders" by default never hides items above Tier 3.
-  - Introduced the UnidentifiedItemTier command in other niche spots, where it makes sense.
-  - Restructured the filter a bit to make it ensure that crafting/hiding/tier highlights are playing nicely together.
+  The tiered overrides now all come with class requirements. This excludes precursor tablets and similar gear from accidently getting caught.
   
   ------
 

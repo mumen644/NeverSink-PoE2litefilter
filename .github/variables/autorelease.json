@@ -6,11 +6,11 @@
     },
     {
       "name": "version",
-      "value": "0.7.7"
+      "value": "0.7.7a"
     },
     {
       "name": "suffix",
-      "value": "Unidentified Item Tier"
+      "value": "Classes added to item tiers"
     }
   ]
 }
