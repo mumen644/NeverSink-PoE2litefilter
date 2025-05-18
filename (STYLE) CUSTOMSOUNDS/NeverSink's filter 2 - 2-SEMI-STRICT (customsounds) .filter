@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.7.7
+# VERSION:  0.7.7a
 # TYPE:     2-SEMI-STRICT
 # STYLE:    CUSTOMSOUNDS
 # AUTHOR:   NeverSink
@@ -252,6 +252,7 @@ Show # $type->artifact $tier->fishingrod
 Show # $type->exotic->others $tier->tier5rare
 	UnidentifiedItemTier >= 5
 	Rarity Rare
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 45
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
@@ -263,6 +264,7 @@ Show # $type->exotic->others $tier->tier5rare
 Show # $type->exotic->others $tier->tier4rare
 	UnidentifiedItemTier 4
 	Rarity Rare
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 42
 	SetBackgroundColor 20 20 0 255
 	CustomAlertSound "3uniques.mp3" 300
@@ -282,18 +284,21 @@ Show # %D4 $type->exotic->others $tier->tier23raretrinkets
 Show # %D4 $type->exotic->others $tier->tier3rare
 	UnidentifiedItemTier 3
 	Rarity Rare
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 
 Show # %D3 $type->exotic->others $tier->tier2rare
 	UnidentifiedItemTier 2
 	Rarity Rare
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 
 Show # $type->exotic->others $tier->tier5magic
 	UnidentifiedItemTier >= 5
 	Rarity Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 42
 	SetTextColor 0 240 190 255
 	CustomAlertSound "3uniques.mp3" 300
@@ -303,6 +308,7 @@ Show # $type->exotic->others $tier->tier5magic
 Show # $type->exotic->others $tier->tier4magic
 	UnidentifiedItemTier 4
 	Rarity Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
 	CustomAlertSound "3uniques.mp3" 300
@@ -312,12 +318,14 @@ Show # $type->exotic->others $tier->tier4magic
 Show # %D4 $type->exotic->others $tier->tier3magic
 	UnidentifiedItemTier 3
 	Rarity Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 40
 	SetBackgroundColor 30 0 70 255
 
 Show # %D3 $type->exotic->others $tier->tier2magic
 	UnidentifiedItemTier 2
 	Rarity Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetBackgroundColor 30 0 70 255
 
 # !! Waypoint c3.exotic.state.all : "Exotic State - Double Corrupted, Overquality"
