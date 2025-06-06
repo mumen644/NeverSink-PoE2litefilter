@@ -6,11 +6,11 @@
     },
     {
       "name": "version",
-      "value": "0.7.7a"
+      "value": "0.7.8"
     },
     {
       "name": "suffix",
-      "value": "Classes added to item tiers"
+      "value": "New Socketables"
     }
   ]
 }

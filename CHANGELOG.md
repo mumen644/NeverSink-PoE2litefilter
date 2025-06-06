@@ -7,6 +7,18 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.8** - New Socketables
+----------------------------------
+
+## SHORT OVERVIEW:
+I quickly emergency added all new runes, talismans and sockets into the filter. All new socketables are A-tiered for now, with the hedgewitch being S-tier.
+Additionally I've adjusted the economy based tiering to match the buffed PoE2 "Mythic" uniques to be stronger.
+
+Finally, while I don't know all of the new added uniques, the filter has been built in a way to always highlight unknown or new unique bases. So the new uniques should be highlighted in a 'error-pink' color, usually indicating that the unique is unknown. 
+
+On a side note, this PoE2 patch dropping exactly during the PoE1 patch notes, with no previous item info. So expect more finetuning tomorrow, once all the items have been found and revealed.
+
+----------------------------------
 # **VERSION 0.7.7a** - Classes added to item tiers
 ----------------------------------
 

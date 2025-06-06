@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.7.7a
+# VERSION:  0.7.8
 # TYPE:     6-UBER-PLUS-STRICT
 # STYLE:    DEFAULT
 # AUTHOR:   NeverSink
@@ -366,7 +366,7 @@ Show # $type->chancing $tier->chancea
 	Mirrored False
 	Corrupted False
 	Rarity Normal
-	BaseType == "Stellar Amulet"
+	BaseType == "Forked Spear" "Sacred Focus" "Stellar Amulet"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -379,7 +379,7 @@ Show # $type->chancing $tier->chancea
 #	Mirrored False
 #	Corrupted False
 #	Rarity Normal
-#	BaseType == "Heavy Belt" "Rampart Tower Shield" "Sapphire Ring"
+#	BaseType == "Heavy Belt" "Sapphire Ring"
 #	SetFontSize 40
 #	SetBorderColor 0 200 95
 #	PlayAlertSound 3 300
@@ -1642,7 +1642,7 @@ Hide # $type->hidelayer $tier->raresendgame
 
 Show # $type->sockets->general $tier->s
 	Class == "Socketable"
-	BaseType == "Fox Talisman" "Rabbit Talisman" "Soul Core of Azcapa" "Soul Core of Ticaba"
+	BaseType == "Fox Talisman" "Hedgewitch Assandra's Rune of Wisdom" "Rabbit Talisman" "Soul Core of Azcapa" "Soul Core of Ticaba"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -1653,7 +1653,7 @@ Show # $type->sockets->general $tier->s
 
 Show # $type->sockets->general $tier->a
 	Class == "Socketable"
-	BaseType == "Soul Core of Xopec"
+	BaseType == "Atmohua's Soul Core of Retreat" "Cholotl's Soul Core of War" "Citaqualotl's Soul Core of Foulness" "Countess Seske's Rune of Archery" "Courtesan Mannan's Rune of Cruelty" "Craiceann's Rune of Recovery" "Craiceann's Rune of Warding" "Estazunti's Soul Core of Convalescence" "Farrul's Rune of Grace" "Farrul's Rune of the Chase" "Farrul's Rune of the Hunt" "Fenumus' Rune of Agony" "Fenumus' Rune of Draining" "Fenumus' Rune of Spinning" "Guatelitzi's Soul Core of Endurance" "Hayoxi's Soul Core of Heatproofing" "Lady Hestra's Rune of Winter" "Opiloti's Soul Core of Assault" "Quipolatl's Soul Core of Flow" "Saqawal's Rune of Erosion" "Saqawal's Rune of Memory" "Saqawal's Rune of the Sky" "Soul Core of Xopec" "Tacati's Soul Core of Affliction" "Talisman of Eeshta" "Talisman of Egrin" "Talisman of Grold" "Talisman of Maxarius" "Talisman of Ralakesh" "Talisman of Sirrius" "Talisman of Thruldana" "Thane Girt's Rune of Wildness" "Thane Grannell's Rune of Mastery" "Thane Leld's Rune of Spring" "Thane Myrk's Rune of Summer" "The Greatwolf's Rune of Claws" "The Greatwolf's Rune of Willpower" "Topotante's Soul Core of Dampening" "Tzamoto's Soul Core of Ferocity" "Uromoti's Soul Core of Attenuation" "Xipocado's Soul Core of Dominion" "Xopec's Soul Core of Power" "Zalatl's Soul Core of Insulation"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
