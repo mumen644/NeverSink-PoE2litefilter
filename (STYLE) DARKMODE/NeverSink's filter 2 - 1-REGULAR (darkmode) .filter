@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.7.8
+# VERSION:  0.7.8a
 # TYPE:     1-REGULAR
 # STYLE:    DARKMODE
 # AUTHOR:   NeverSink
@@ -1633,7 +1633,7 @@ Show # %D4 $type->sockets->general $tier->socketleveling2
 
 Show # $type->sockets->general $tier->s
 	Class == "Socketable"
-	BaseType == "Fox Talisman" "Hedgewitch Assandra's Rune of Wisdom" "Rabbit Talisman" "Soul Core of Azcapa" "Soul Core of Ticaba"
+	BaseType == "Countess Seske's Rune of Archery" "Courtesan Mannan's Rune of Cruelty" "Farrul's Rune of the Chase" "Fox Talisman" "Hedgewitch Assandra's Rune of Wisdom" "Opiloti's Soul Core of Assault" "Rabbit Talisman" "Soul Core of Azcapa" "Soul Core of Ticaba" "Talisman of Ralakesh" "Talisman of Sirrius"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -1644,7 +1644,7 @@ Show # $type->sockets->general $tier->s
 
 Show # $type->sockets->general $tier->a
 	Class == "Socketable"
-	BaseType == "Atmohua's Soul Core of Retreat" "Cholotl's Soul Core of War" "Citaqualotl's Soul Core of Foulness" "Countess Seske's Rune of Archery" "Courtesan Mannan's Rune of Cruelty" "Craiceann's Rune of Recovery" "Craiceann's Rune of Warding" "Estazunti's Soul Core of Convalescence" "Farrul's Rune of Grace" "Farrul's Rune of the Chase" "Farrul's Rune of the Hunt" "Fenumus' Rune of Agony" "Fenumus' Rune of Draining" "Fenumus' Rune of Spinning" "Guatelitzi's Soul Core of Endurance" "Hayoxi's Soul Core of Heatproofing" "Lady Hestra's Rune of Winter" "Opiloti's Soul Core of Assault" "Quipolatl's Soul Core of Flow" "Saqawal's Rune of Erosion" "Saqawal's Rune of Memory" "Saqawal's Rune of the Sky" "Soul Core of Xopec" "Tacati's Soul Core of Affliction" "Talisman of Eeshta" "Talisman of Egrin" "Talisman of Grold" "Talisman of Maxarius" "Talisman of Ralakesh" "Talisman of Sirrius" "Talisman of Thruldana" "Thane Girt's Rune of Wildness" "Thane Grannell's Rune of Mastery" "Thane Leld's Rune of Spring" "Thane Myrk's Rune of Summer" "The Greatwolf's Rune of Claws" "The Greatwolf's Rune of Willpower" "Topotante's Soul Core of Dampening" "Tzamoto's Soul Core of Ferocity" "Uromoti's Soul Core of Attenuation" "Xipocado's Soul Core of Dominion" "Xopec's Soul Core of Power" "Zalatl's Soul Core of Insulation"
+	BaseType == "Atmohua's Soul Core of Retreat" "Cholotl's Soul Core of War" "Citaqualotl's Soul Core of Foulness" "Craiceann's Rune of Warding" "Estazunti's Soul Core of Convalescence" "Farrul's Rune of Grace" "Farrul's Rune of the Hunt" "Fenumus' Rune of Agony" "Fenumus' Rune of Draining" "Fenumus' Rune of Spinning" "Greater Rune of Tithing" "Guatelitzi's Soul Core of Endurance" "Hayoxi's Soul Core of Heatproofing" "Lady Hestra's Rune of Winter" "Quipolatl's Soul Core of Flow" "Saqawal's Rune of Erosion" "Saqawal's Rune of Memory" "Saqawal's Rune of the Sky" "Soul Core of Xopec" "Tacati's Soul Core of Affliction" "Talisman of Eeshta" "Talisman of Egrin" "Talisman of Grold" "Talisman of Maxarius" "Talisman of Thruldana" "Thane Girt's Rune of Wildness" "Thane Grannell's Rune of Mastery" "Thane Leld's Rune of Spring" "Thane Myrk's Rune of Summer" "The Greatwolf's Rune of Claws" "The Greatwolf's Rune of Willpower" "Topotante's Soul Core of Dampening" "Tzamoto's Soul Core of Ferocity" "Uromoti's Soul Core of Attenuation" "Xipocado's Soul Core of Dominion" "Xopec's Soul Core of Power" "Zalatl's Soul Core of Insulation"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1655,7 +1655,7 @@ Show # $type->sockets->general $tier->a
 
 Show # $type->sockets->general $tier->b
 	Class == "Socketable"
-	BaseType == "Soul Core of Atmohua" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi"
+	BaseType == "Craiceann's Rune of Recovery" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Soul Core of Atmohua" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi"
 	SetFontSize 45
 	SetTextColor 245 105 90 255
 	SetBorderColor 245 105 90 255
@@ -1665,7 +1665,7 @@ Show # $type->sockets->general $tier->b
 
 Show # %H6 $type->sockets->general $tier->c
 	Class == "Socketable"
-	BaseType == "Bear Talisman" "Boar Talisman" "Cat Talisman" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Storm Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Serpent Talisman" "Soul Core of Cholotl" "Soul Core of Opiloti" "Soul Core of Topotante" "Stag Talisman" "Wolf Talisman"
+	BaseType == "Bear Talisman" "Boar Talisman" "Cat Talisman" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Storm Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Serpent Talisman" "Soul Core of Cholotl" "Soul Core of Opiloti" "Soul Core of Topotante" "Stag Talisman" "Wolf Talisman"
 	SetFontSize 45
 	SetTextColor 245 139 87 255
 	SetBorderColor 245 139 87 255
@@ -1701,7 +1701,7 @@ Show # %H3 $type->sockets->general $tier->supplylow
 
 Hide # $type->sockets->general $tier->exhide
 	Class == "Socketable"
-	BaseType == "Adept Rune" "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Desert Rune" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Rune of Tithing" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
+	BaseType == "Adept Rune" "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Craiceann's Rune of Recovery" "Desert Rune" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -3021,7 +3021,7 @@ Show # $type->uniques $tier->sekhemaring
 
 Show # $type->uniques $tier->t1
 	Rarity Unique
-	BaseType == "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Embroidered Gloves" "Emerald" "Fine Bracers" "Golden Charm" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ornate Belt" "Ornate Gauntlets" "Ring" "Sapphire" "Silver Charm" "Stone Charm" "Stone Tower Shield" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring"
+	BaseType == "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Death Mask" "Desolate Crossbow" "Embroidered Gloves" "Emerald" "Fine Bracers" "Golden Charm" "Heavy Bow" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Ring" "Sapphire" "Silver Charm" "Siphoning Wand" "Stone Charm" "Stone Tower Shield" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3032,7 +3032,7 @@ Show # $type->uniques $tier->t1
 
 Show # $type->uniques $tier->t2
 	Rarity Unique
-	BaseType == "Amethyst Charm" "Array Buckler" "Breach Precursor Tablet" "Burnished Gauntlets" "Conqueror Plate" "Coral Circlet" "Diamond" "Expedition Precursor Tablet" "Furtive Wraps" "Garment" "Giant Maul" "Gold Amulet" "Helix Spear" "Jewelled Gloves" "Lattice Sandals" "Magus Tiara" "Overseer Precursor Tablet" "Precursor Tablet" "Rampart Tower Shield" "Ritual Precursor Tablet" "Ruby" "Sacred Focus" "Smuggler Coat" "Spiked Club" "Spiral Wraps" "Spired Greathelm" "Spiritbone Crown" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Trimmed Greaves" "Utility Belt" "Vase Relic" "Velvet Cap" "Wyrm Quarterstaff"
+	BaseType == "Amethyst Charm" "Array Buckler" "Breach Precursor Tablet" "Burnished Gauntlets" "Conqueror Plate" "Coral Circlet" "Diamond" "Expedition Precursor Tablet" "Furtive Wraps" "Garment" "Giant Maul" "Gold Amulet" "Helix Spear" "Jewelled Gloves" "Lattice Sandals" "Magus Tiara" "Overseer Precursor Tablet" "Precursor Tablet" "Rampart Tower Shield" "Ritual Precursor Tablet" "Ruby" "Sacred Focus" "Smuggler Coat" "Spiked Club" "Spiral Wraps" "Spired Greathelm" "Spiritbone Crown" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Toxic Quiver" "Trimmed Greaves" "Utility Belt" "Vase Relic" "Velvet Cap" "Wyrm Quarterstaff"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3109,7 +3109,7 @@ Show # %H5 $type->uniques $tier->t3boss
 
 Show # %H5 $type->uniques $tier->t3
 	Rarity Unique
-	BaseType == "Altar Robe" "Amphora Relic" "Antidote Charm" "Azure Amulet" "Bolstered Mitts" "Coffer Relic" "Corsair Cap" "Double Belt" "Dousing Charm" "Enlightened Robe" "Fanatic Bow" "Felt Cap" "Forked Spear" "Gold Circlet" "Grounding Charm" "Heavy Crown" "Heraldric Tower Shield" "Iron Greaves" "Iron Ring" "Moulded Mitts" "Prismatic Ring" "Ruby Charm" "Sapphire Charm" "Seal Relic" "Secured Leggings" "Solid Mask" "Spined Bracers" "Staunching Charm" "Stone Greaves" "Tapestry Relic" "Topaz Charm" "Torment Club" "Voodoo Focus" "Wrapped Greathelm"
+	BaseType == "Altar Robe" "Amphora Relic" "Antidote Charm" "Azure Amulet" "Bolstered Mitts" "Coffer Relic" "Corsair Cap" "Double Belt" "Dousing Charm" "Enlightened Robe" "Fanatic Bow" "Felt Cap" "Forked Spear" "Gold Circlet" "Grounding Charm" "Heavy Crown" "Heraldric Tower Shield" "Iron Greaves" "Iron Ring" "Moulded Mitts" "Prismatic Ring" "Ruby Charm" "Sapphire Charm" "Seal Relic" "Secured Leggings" "Solid Mask" "Spined Bracers" "Staunching Charm" "Stone Greaves" "Tapestry Relic" "Topaz Charm" "Torment Club" "Viper Cap" "Voodoo Focus" "Wrapped Greathelm"
 	SetFontSize 45
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255

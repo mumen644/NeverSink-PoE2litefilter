@@ -2,12 +2,9 @@ template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
   ## SHORT OVERVIEW:
-  I quickly emergency added all new runes, talismans and sockets into the filter. All new socketables are A-tiered for now, with the hedgewitch being S-tier.
-  Additionally I've adjusted the economy based tiering to match the buffed PoE2 "Mythic" uniques to be stronger.
+  Improved initial tiering of the new socketables and added the 9 new uniques to the tierlists to get more of those satisfying shwing sounds.
   
-  Finally, while I don't know all of the new added uniques, the filter has been built in a way to always highlight unknown or new unique bases. So the new uniques should be highlighted in a 'error-pink' color, usually indicating that the unique is unknown.
-  
-  On a side note, this PoE2 patch dropping exactly during the PoE1 patch notes, with no previous item info. So expect more finetuning tomorrow, once all the items have been found and revealed.
+  All items will be connected to the economy data, once it's available.
   
   ------
 

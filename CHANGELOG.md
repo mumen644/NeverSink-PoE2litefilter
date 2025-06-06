@@ -7,6 +7,15 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.8a** - New Socketable Finetuning
+----------------------------------
+
+## SHORT OVERVIEW:
+Improved initial tiering of the new socketables and added the 9 new uniques to the tierlists to get more of those satisfying shwing sounds. 
+
+All items will be connected to the economy data, once it's available.
+
+----------------------------------
 # **VERSION 0.7.8** - New Socketables
 ----------------------------------
 
