@@ -7,6 +7,12 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.9a** - Rune hotfix
+----------------------------------
+
+Fixed a bug introduced in 0.7.9 that led to low tier endgame runes ('greater adept rune') not showing correctly.
+
+----------------------------------
 # **VERSION 0.7.9** - Major Tiering Improvements (Economy only)
 ----------------------------------
 

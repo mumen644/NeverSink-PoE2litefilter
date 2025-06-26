@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.7.9
+# VERSION:  0.7.9a
 # TYPE:     0-SOFT
 # STYLE:    DARKMODE
 # AUTHOR:   NeverSink
@@ -1675,7 +1675,7 @@ Show # %H6 $type->sockets->general $tier->c
 
 Show # %H5 $type->sockets->general $tier->d
 	Class == "Socketable"
-	BaseType == "Greater Body Rune" "Greater Inspiration Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Stone Rune" "Greater Vision Rune"
+	BaseType == "Greater Adept Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Storm Rune"
 	SetFontSize 40
 	SetTextColor 240 180 100 255
 	SetBorderColor 240 180 100 255
