@@ -1,10 +1,7 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  ## SHORT OVERVIEW:
-  Improved initial tiering of the new socketables and added the 9 new uniques to the tierlists to get more of those satisfying shwing sounds.
-  
-  All items will be connected to the economy data, once it's available.
+  Fixed a bug introduced in 0.7.9 that led to low tier endgame runes ('greater adept rune') not showing correctly.
   
   ------
 

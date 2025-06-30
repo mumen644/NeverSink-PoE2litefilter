@@ -7,6 +7,34 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.7.9a** - Rune hotfix
+----------------------------------
+
+Fixed a bug introduced in 0.7.9 that led to low tier endgame runes ('greater adept rune') not showing correctly.
+
+----------------------------------
+# **VERSION 0.7.9** - Major Tiering Improvements (Economy only)
+----------------------------------
+
+## SHORT OVERVIEW:
+The state of the PoE2 economy is currently very chaotic and messy due to the late-league state and the large number of highly invasive changes.
+
+This patch focuses on hardening the filter economy based tiering to deal with such messy states and also prepare it for the upcoming league.
+
+## CHANGES:
+- Massive overhauls to the economy based tiering. Guardrails, aspects, threshold adjustments, additional sources etc. have all been used to improve the current system
+- Vastly adjusted the practical (economy versions only) tiering for: currency, uniques, omens, socketables, fragments
+- The socketable item tiering now treats runes, talismans and soul cores in the same way.
+- Reworked leveling rune implementation and tiering
+- Other Minor adjustments
+
+----------------------------------
+# **VERSION 0.7.8b** - New Socketable Finetuning
+----------------------------------
+
+- The leveling rules for general armor highlight no longer highlight foci/bucklers as these have their own dedicated rules
+
+----------------------------------
 # **VERSION 0.7.8a** - New Socketable Finetuning
 ----------------------------------
 

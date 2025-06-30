@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.7.8a
+# VERSION:  0.7.9a
 # TYPE:     2-SEMI-STRICT
 # STYLE:    DEFAULT
 # AUTHOR:   NeverSink
@@ -1813,7 +1813,7 @@ Hide # $type->hidelayer $tier->raresendgame
 
 Show # %D4 $type->sockets->general $tier->socketleveling1
 	Class == "Socketable"
-	BaseType == "Adept Rune" "Desert Rune" "Glacial Rune" "Iron Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Iron Rune" "Lesser Storm Rune" "Resolve Rune" "Robust Rune" "Storm Rune"
+	BaseType == "Adept Rune" "Desert Rune" "Glacial Rune" "Greater Adept Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Storm Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Iron Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Storm Rune" "Resolve Rune" "Robust Rune" "Storm Rune"
 	AreaLevel < 65
 	SetFontSize 40
 	SetTextColor 0 0 0 255
@@ -1825,7 +1825,7 @@ Show # %D4 $type->sockets->general $tier->socketleveling1
 
 Show # %D4 $type->sockets->general $tier->socketleveling2
 	Class == "Socketable"
-	BaseType == "Body Rune" "Inspiration Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Inspiration Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Mind Rune" "Rebirth Rune" "Stone Rune" "Vision Rune"
+	BaseType == "Body Rune" "Greater Body Rune" "Greater Inspiration Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Stone Rune" "Greater Vision Rune" "Inspiration Rune" "Lesser Body Rune" "Lesser Inspiration Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Mind Rune" "Rebirth Rune" "Stone Rune" "Vision Rune"
 	AreaLevel < 65
 	SetFontSize 38
 	SetTextColor 220 175 132
@@ -1866,7 +1866,7 @@ Show # $type->sockets->general $tier->b
 
 Show # %H6 $type->sockets->general $tier->c
 	Class == "Socketable"
-	BaseType == "Bear Talisman" "Boar Talisman" "Cat Talisman" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Storm Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Serpent Talisman" "Soul Core of Cholotl" "Soul Core of Opiloti" "Soul Core of Topotante" "Stag Talisman" "Wolf Talisman"
+	BaseType == "Bear Talisman" "Boar Talisman" "Cat Talisman" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Serpent Talisman" "Soul Core of Cholotl" "Soul Core of Opiloti" "Soul Core of Topotante" "Stag Talisman" "Wolf Talisman"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1877,7 +1877,7 @@ Show # %H6 $type->sockets->general $tier->c
 
 Show # %H5 $type->sockets->general $tier->d
 	Class == "Socketable"
-	BaseType == "Desert Rune" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Inspiration Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Stone Rune" "Greater Vision Rune" "Iron Rune" "Storm Rune"
+	BaseType == "Greater Adept Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Iron Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Storm Rune"
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1888,7 +1888,7 @@ Show # %H5 $type->sockets->general $tier->d
 
 Show # %H4 $type->sockets->general $tier->e
 	Class == "Socketable"
-	BaseType == "Adept Rune" "Body Rune" "Inspiration Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Iron Rune" "Lesser Storm Rune" "Mind Rune" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Stone Rune" "Vision Rune"
+	BaseType == "Greater Body Rune" "Greater Inspiration Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Stone Rune" "Greater Vision Rune"
 	SetFontSize 40
 	SetTextColor 240 207 132
 	SetBorderColor 240 207 132
@@ -1897,14 +1897,14 @@ Show # %H4 $type->sockets->general $tier->e
 
 Show # %H3 $type->sockets->general $tier->supplylow
 	Class == "Socketable"
-	BaseType == "Lesser Adept Rune" "Lesser Body Rune" "Lesser Inspiration Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Vision Rune"
+	BaseType == "Adept Rune" "Body Rune" "Desert Rune" "Glacial Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Stone Rune" "Storm Rune" "Vision Rune"
 	SetFontSize 38
 	SetTextColor 220 175 132
 	SetBorderColor 220 175 132
 
 Hide # $type->sockets->general $tier->exhide
 	Class == "Socketable"
-	BaseType == "Adept Rune" "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Craiceann's Rune of Recovery" "Desert Rune" "Glacial Rune" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Stone Rune" "Greater Storm Rune" "Greater Vision Rune" "Inspiration Rune" "Iron Rune" "Lesser Adept Rune" "Lesser Body Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Inspiration Rune" "Lesser Iron Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Resolve Rune" "Lesser Robust Rune" "Lesser Stone Rune" "Lesser Storm Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rebirth Rune" "Resolve Rune" "Robust Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Storm Rune" "Vision Rune" "Wolf Talisman"
+	BaseType == "Bear Talisman" "Boar Talisman" "Body Rune" "Cat Talisman" "Craiceann's Rune of Recovery" "Greater Body Rune" "Greater Inspiration Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Rune of Alacrity" "Greater Rune of Leadership" "Greater Rune of Nobility" "Greater Stone Rune" "Greater Vision Rune" "Inspiration Rune" "Lesser Body Rune" "Lesser Inspiration Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Mind Rune" "Owl Talisman" "Ox Talisman" "Primate Talisman" "Rebirth Rune" "Serpent Talisman" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Zalatl" "Soul Core of Zantipi" "Stag Talisman" "Stone Rune" "Vision Rune" "Wolf Talisman"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -2465,7 +2465,7 @@ Show # $type->waystones $tier->deco_corruptedmod
 #   [2102] Special Maps
 #------------------------------------
 
-Show # $type->waystones $tier->enchanted1
+Show # %D6 $type->waystones $tier->enchanted1
 	AnyEnchantment True
 	WaystoneTier >= 14
 	Class == "Waystones"
@@ -2476,7 +2476,7 @@ Show # $type->waystones $tier->enchanted1
 	PlayEffect Red
 	MinimapIcon 0 Purple Square
 
-Show # %H5 $type->waystones $tier->enchanted2
+Show # %D5 $type->waystones $tier->enchanted2
 	AnyEnchantment True
 	WaystoneTier >= 11
 	WaystoneTier <= 13
@@ -2488,7 +2488,7 @@ Show # %H5 $type->waystones $tier->enchanted2
 	PlayEffect Yellow
 	MinimapIcon 2 Purple Square
 
-Show # %H4 $type->waystones $tier->enchanted34
+Show # %D4 $type->waystones $tier->enchanted34
 	AnyEnchantment True
 	WaystoneTier >= 1
 	WaystoneTier <= 10
@@ -3268,7 +3268,7 @@ Show # $type->uniques $tier->t1
 
 Show # $type->uniques $tier->t2
 	Rarity Unique
-	BaseType == "Amethyst Charm" "Array Buckler" "Breach Precursor Tablet" "Burnished Gauntlets" "Conqueror Plate" "Coral Circlet" "Diamond" "Expedition Precursor Tablet" "Furtive Wraps" "Garment" "Giant Maul" "Gold Amulet" "Helix Spear" "Jewelled Gloves" "Lattice Sandals" "Magus Tiara" "Overseer Precursor Tablet" "Precursor Tablet" "Rampart Tower Shield" "Ritual Precursor Tablet" "Ruby" "Sacred Focus" "Smuggler Coat" "Spiked Club" "Spiral Wraps" "Spired Greathelm" "Spiritbone Crown" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Toxic Quiver" "Trimmed Greaves" "Utility Belt" "Vase Relic" "Velvet Cap" "Wyrm Quarterstaff"
+	BaseType == "Amethyst Charm" "Array Buckler" "Breach Precursor Tablet" "Burnished Gauntlets" "Conqueror Plate" "Coral Circlet" "Delirium Precursor Tablet" "Diamond" "Expedition Precursor Tablet" "Furtive Wraps" "Garment" "Giant Maul" "Gold Amulet" "Helix Spear" "Jewelled Gloves" "Lattice Sandals" "Magus Tiara" "Overseer Precursor Tablet" "Precursor Tablet" "Rampart Tower Shield" "Ritual Precursor Tablet" "Ruby" "Sacred Focus" "Smuggler Coat" "Spiked Club" "Spiral Wraps" "Spired Greathelm" "Spiritbone Crown" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Toxic Quiver" "Trimmed Greaves" "Utility Belt" "Vase Relic" "Velvet Cap" "Wyrm Quarterstaff"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -3385,7 +3385,7 @@ Show # $type->uniques $tier->restex
 #===============================================================================================================
 # !! Waypoint c10.fragments.most : "Fragments and Splinters"
 
-Show # $type->currency->splinter $tier->t1
+Show # %D6 $type->currency->splinter $tier->t1
 	StackSize >= 25
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter" "Simulacrum Splinter"
@@ -3397,7 +3397,7 @@ Show # $type->currency->splinter $tier->t1
 	PlayEffect Red
 	MinimapIcon 0 Red Kite
 
-Show # $type->currency->splinter $tier->t2
+Show # %D6 $type->currency->splinter $tier->t2
 	StackSize >= 10
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter" "Simulacrum Splinter"
@@ -3409,7 +3409,7 @@ Show # $type->currency->splinter $tier->t2
 	PlayEffect Purple
 	MinimapIcon 0 Red Kite
 
-Show # $type->currency->splinter $tier->t3
+Show # %D6 $type->currency->splinter $tier->t3
 	StackSize >= 5
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter" "Simulacrum Splinter"
@@ -3421,7 +3421,7 @@ Show # $type->currency->splinter $tier->t3
 	PlayEffect Purple
 	MinimapIcon 1 Orange Kite
 
-Show # $type->currency->splinter $tier->t4
+Show # %D6 $type->currency->splinter $tier->t4
 	StackSize >= 2
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter" "Simulacrum Splinter"
@@ -4334,42 +4334,42 @@ Show # %D3 $type->leveling->normalmagic->armours $tier->ar
 	BaseEvasion 0
 	BaseArmour > 0
 	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 
 Show # %D3 $type->leveling->normalmagic->armours $tier->ev
 	BaseEnergyShield 0
 	BaseEvasion > 0
 	BaseArmour 0
 	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 
 Show # %D3 $type->leveling->normalmagic->armours $tier->es
 	BaseEnergyShield > 0
 	BaseEvasion 0
 	BaseArmour 0
 	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 
 Show # %D3 $type->leveling->normalmagic->armours $tier->arev
 	BaseEnergyShield 0
 	BaseEvasion > 0
 	BaseArmour > 0
 	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 
 Show # %D3 $type->leveling->normalmagic->armours $tier->ares
 	BaseEnergyShield > 0
 	BaseEvasion 0
 	BaseArmour > 0
 	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 
 Show # %D3 $type->leveling->normalmagic->armours $tier->eves
 	BaseEnergyShield > 0
 	BaseEvasion > 0
 	BaseArmour 0
 	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "Shields"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 
 Show # %D3 $type->leveling->normalmagic->weapons $tier->wands
 	Rarity Normal Magic
