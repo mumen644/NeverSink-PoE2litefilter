@@ -7,6 +7,15 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.8.2b** - Tiering changes
+----------------------------------
+
+- Minor tiering adjustments
+- Improved the tiering of abyss socketables
+- Added 'Instance Local Items'
+- Adjusted the priority of gear, salvaging, chance, exceptional and hider rules to all play together nicely
+
+----------------------------------
 # **VERSION 0.8.2a** - Tiering changes
 ----------------------------------
 
