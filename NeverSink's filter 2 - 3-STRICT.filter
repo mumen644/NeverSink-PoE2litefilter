@@ -173,12 +173,39 @@ Show # %H3 $type->gold $tier->any !gold_pilesmall
 #	SetTextColor 170 158 130
 
 #=================================
+# Gemini Crossbow
+#=================================
+Show
+	Rarity Normal	
+	Class "Crossbows"	
+	BaseType "Gemini Crossbow"
+	SetTextColor 198 207 240
+	SetBorderColor 198 207 240
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
+
+Show
+	Rarity Magic	
+	Class "Crossbows"
+	ItemLevel >= 80
+	BaseType "Gemini Crossbow"
+	SetTextColor 202 227 193
+	SetBorderColor 202 227 193
+	SetBackgroundColor 60 156 19
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
+#=================================
 # Primed & Volant Quivers
 #=================================
 Show
-	Rarity >= Rare	
-	Class "Quivers"
-	ItemLevel >= 81
+	Rarity == Normal	
+	Class "Quivers"	
 	BaseType "Primed Quiver" "Volant Quiver"
 	SetTextColor 202 227 193
 	SetBorderColor 202 227 193
@@ -189,12 +216,11 @@ Show
 	SetFontSize 40
 
 #=================================
-# Dualstring Bows
+# Gemini Bows
 #=================================
 Show
-	Rarity >= Rare	
-	Class "Bows"
-	ItemLevel >= 81
+	Rarity == Normal	
+	Class "Bows"	
 	BaseType "Gemini Bow"
 	SetTextColor 198 207 240
 	SetBorderColor 198 207 240
@@ -207,18 +233,18 @@ Show
 #=================================
 # Expert Quarterstaves
 #=================================
-Show
-	Rarity >= Rare
-	Class "Quarterstaff"
-	ItemLevel >= 81
-	BaseType "Aegis Quarterstaff" "Lunar Quarterstaff" "Razor Quarterstaff" "Gothic Quarterstaff"
-	SetTextColor 198 207 240
-	SetBorderColor 198 207 240
-	SetBackgroundColor 46 78 194
-	PlayAlertSound 2 300
-	PlayEffect Blue
-	MinimapIcon 1 Blue Diamond
-	SetFontSize 40
+# Show
+#	Rarity == Normal
+#	Class "Quarterstaff"
+#	ItemLevel >= 80
+#	BaseType "Aegis Quarterstaff" "Lunar Quarterstaff" "Razor Quarterstaff" "Gothic Quarterstaff"
+#	SetTextColor 198 207 240
+#	SetBorderColor 198 207 240
+#	SetBackgroundColor 46 78 194
+#	PlayAlertSound 2 300
+#	PlayEffect Blue
+#	MinimapIcon 1 Blue Diamond
+#	SetFontSize 40
 
 #=================================
 # Emerald Rings
@@ -239,9 +265,8 @@ Show
 # Solar Ammulet
 #=================================
 Show
-	Rarity Rare
-	Class "Amulet"
-	ItemLevel >= 81
+	Rarity Normal
+	Class "Amulet"	
 	BaseType "Solar Amulet"
 	SetTextColor 239 245 205
 	SetBorderColor 239 245 205
@@ -255,10 +280,9 @@ Show
 # Body Armour
 #=================================
 Show
-	Rarity Rare
-	Class "Body Armour"
-	ItemLevel >= 81
-	BaseType "Sleek Jacket" "Wayfarer Jacket" "Jacket"
+	Rarity Normal
+	Class "Body Armour"	
+	BaseType "Corsair Coat"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -271,10 +295,9 @@ Show
 # Boots
 #=================================
 Show
-	Rarity Rare
-	Class "Boots"
-	ItemLevel >= 81
-	BaseType "Quickslip Shoes" "Threaded Shoes" "Shoes"
+	Rarity Normal
+	Class "Boots"	
+	BaseType "Drakeskin Boots"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -287,10 +310,9 @@ Show
 # Helmets
 #=================================
 Show
-	Rarity Rare
-	Class "Helmet"
-	ItemLevel >= 81
-	BaseType "Kamasan Tiara" "Mask"
+	Rarity Normal
+	Class "Helmet"	
+	BaseType "Freebooter Cap"
 	SetTextColor 240 184 184
 	SetBorderColor 240 184 184
 	SetBackgroundColor 166 9 9
@@ -302,23 +324,23 @@ Show
 #===============================
 # Rampart Tower Shield
 #===============================
-Show
-	Rarity Normal	
-	BaseType "Tower Shield"
-	SetTextColor 239 245 205
-	SetBorderColor 202 227 193
-	SetBackgroundColor 91 179 8
-	PlayAlertSound 2 300
-	PlayEffect Green
-	MinimapIcon 1 Green Diamond
-	SetFontSize 40
+#Show
+#	Rarity Normal	
+#	BaseType "Tower Shield"
+#	SetTextColor 239 245 205
+#	SetBorderColor 202 227 193
+#	SetBackgroundColor 91 179 8
+#	PlayAlertSound 2 300
+#	PlayEffect Green
+#	MinimapIcon 1 Green Diamond
+#	SetFontSize 40
 
 #==============================
-# Jewelled Gloves
+# Gloves
 #==============================
 Show
 	Rarity Normal	
-	BaseType "Jewelled Gloves"
+	BaseType "Polished Bracers"
 	SetTextColor 239 245 205
 	SetBorderColor 202 227 193
 	SetBackgroundColor 91 179 8
@@ -330,29 +352,29 @@ Show
 #=================================
 # Spears
 #=================================
-Show
-	Rarity Normal
-	Class "Spear"
-	BaseType "Forked Spear"
-	SetTextColor 198 207 240
-	SetBorderColor 198 207 240
-	SetBackgroundColor 46 78 194
-	PlayAlertSound 2 300
-	PlayEffect Blue
-	MinimapIcon 1 Blue Diamond
-	SetFontSize 40
+#Show
+#	Rarity Normal
+#	Class "Spear"
+#	BaseType "Forked Spear"
+#	SetTextColor 198 207 240
+#	SetBorderColor 198 207 240
+#	SetBackgroundColor 46 78 194
+#	PlayAlertSound 2 300
+#	PlayEffect Blue
+#	MinimapIcon 1 Blue Diamond
+#	SetFontSize 40
 
-Show
-	Rarity >= Rare
-	Class "Spear"	
-	ItemLevel >= 81	
-	SetTextColor 240 184 184
-	SetBorderColor 240 184 184
-	SetBackgroundColor 166 9 9
-	PlayAlertSound 2 300
-	PlayEffect Red
-	MinimapIcon 1 Red Square
-	SetFontSize 40
+#Show
+#	Rarity >= Rare
+#	Class "Spear"	
+#	ItemLevel >= 81	
+#	SetTextColor 240 184 184
+#	SetBorderColor 240 184 184
+#	SetBackgroundColor 166 9 9
+#	PlayAlertSound 2 300
+#	PlayEffect Red
+#	MinimapIcon 1 Red Square
+#	SetFontSize 40
 
 #===============================================================================================================
 # [[0200]] Exotic Bases
