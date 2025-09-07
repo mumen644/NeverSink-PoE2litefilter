@@ -7,6 +7,14 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.8.2a** - Tiering changes
+----------------------------------
+
+- Adjusted normal/magic/rare basetype tiering for body armors
+- Adjusted chance bases
+- Hide rules for gear are now located correctly (for filterblade users)
+
+----------------------------------
 # **VERSION 0.8.2** - Economy update for Abyss
 ----------------------------------
 
