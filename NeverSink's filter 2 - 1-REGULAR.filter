@@ -190,6 +190,7 @@ Show
 Show
 	Rarity Magic	
 	Class "Crossbows"
+#	UnidentifiedItemTier >= 2
 	ItemLevel >= 80
 	BaseType "Gemini Crossbow"
 	SetTextColor 202 227 193
