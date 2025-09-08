@@ -7,6 +7,13 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.8.2c** - BaseType Matrix finetuning
+----------------------------------
+
+- Further finetuned the tiering of endgame basetypes
+- Moved all precursor tablets from T2 to Multibase
+
+----------------------------------
 # **VERSION 0.8.2b** - Tiering changes
 ----------------------------------
 

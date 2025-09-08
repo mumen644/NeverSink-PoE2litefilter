@@ -1,10 +1,8 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  - Minor tiering adjustments
-  - Improved the tiering of abyss socketables
-  - Added 'Instance Local Items'
-  - Adjusted the priority of gear, salvaging, chance, exceptional and hider rules to all play together nicely
+  - Further finetuned the tiering of endgame basetypes
+  - Moved all precursor tablets from T2 to Multibase
   
   ------
 
