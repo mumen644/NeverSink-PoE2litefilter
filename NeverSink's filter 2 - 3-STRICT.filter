@@ -171,6 +171,64 @@ Show # %H3 $type->gold $tier->any !gold_pilesmall
 #	SetTextColor 170 158 130
 
 #=================================
+# Rattling Septres"
+#=================================
+Show
+	Rarity Normal	
+	Class "Septres"	
+	BaseType "Rattling Sceptre"
+	SetTextColor 198 207 240
+	SetBorderColor 198 207 240
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
+
+Show
+	Rarity >= Magic	
+	Class "Septres"
+#	UnidentifiedItemTier >= 2
+	ItemLevel >= 80
+	BaseType "Rattling Sceptre"
+	SetTextColor 202 227 193
+	SetBorderColor 202 227 193
+	SetBackgroundColor 60 156 19
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
+#=================================
+# Rattling Septres"
+#=================================
+Show
+	Rarity Normal	
+	Class "Septres"	
+	BaseType "Rattling Sceptre"
+	SetTextColor 198 207 240
+	SetBorderColor 198 207 240
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
+
+Show
+	Rarity >= Magic	
+	Class "Septres"
+#	UnidentifiedItemTier >= 2
+	ItemLevel >= 80
+	BaseType "Rattling Sceptre"
+	SetTextColor 202 227 193
+	SetBorderColor 202 227 193
+	SetBackgroundColor 60 156 19
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
+#=================================
 # Gemini Crossbow
 #=================================
 Show
