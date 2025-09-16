@@ -175,7 +175,7 @@ Hide # %H3 $type->gold $tier->any !gold_pilesmall
 #=================================
 Show
 	Rarity Normal	
-	Class "Septres"	
+	Class "Septre"	
 	BaseType "Rattling Sceptre"
 	SetTextColor 198 207 240
 	SetBorderColor 198 207 240
@@ -187,7 +187,7 @@ Show
 
 Show
 	Rarity >= Magic	
-	Class "Septres"
+	Class "Septre"
 #	UnidentifiedItemTier >= 2
 	ItemLevel >= 80
 	BaseType "Rattling Sceptre"
