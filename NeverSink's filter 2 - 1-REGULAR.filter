@@ -200,6 +200,21 @@ Show
 	SetFontSize 40
 
 #=================================
+# Tiaras
+#=================================
+Show
+	Rarity Normal
+	Class "Helmet"	
+	BaseType "Ancestral Tiara"
+	SetTextColor 240 184 184
+	SetBorderColor 240 184 184
+	SetBackgroundColor 166 9 9
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 1 Red Square
+	SetFontSize 40
+	
+#=================================
 # Gemini Crossbow
 #=================================
 Show
