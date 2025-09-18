@@ -267,10 +267,10 @@ Show
 	SetFontSize 40
 
 Show
-	Rarity >= Magic	
+	Rarity == Magic	
 	Class "sceptres"
 #	UnidentifiedItemTier >= 2
-#	ItemLevel >= 80
+	ItemLevel >= 80
 	BaseType "Rattling Sceptre"
 	SetTextColor 202 227 193
 	SetBorderColor 202 227 193
