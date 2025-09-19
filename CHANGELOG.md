@@ -7,6 +7,24 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.8.3** - Tiering and long-term improvements
+----------------------------------
+
+- Adjusted the filter to highlight ANY exceptional base (either 24%+ quality or extra socket) and give the really good ones some extra highlight (Previously the filter was highlighting exceptional bases as long as the base is *somewhat* good)
+- Reliquary keys and calamity fragments now use the fragments visual style. The old red 'artefact' theme is reused for exceptional items with good bases
+- Added a rule for rare tablets (tablets drop VERY rarely in a rare/corrupted form and these are almost always worth around ~10ex)
+- Ongoing adjustments to the general tiering strategy. This is consistent out of dozens of individual changes. The main takeaway is that the filter will be better at evaluating drops better
+- Added an additional low tier for lineage gems in order to still show some of the low-mid-cost lineage gems (between ~3.5-9ex).
+- Currency tiering thresholds have been slightly adjusted. B tier threshold is slightly lower, C tier threshold is slightly higher.
+- Exotic coinage has been moved from the general currency to currency-artefacts. Just as a note: these are treated differently, because they drop in large quantities, only when running expedition content and filtering by their pure economic value can lead to undesirable results.
+- Tiny basetype tiering adjustments
+- ILVL83 flasks are now shown ob uber-strict
+- Changed a few uniques such as the 'Spire of Ire' was way higher tiered than intended.
+- Regular tablets are all tiered a tier lower now.
+- Many unique tiering adjustments notably 'The unborn lich' and 'Grip of Kulemac' is now in the 'T3-boss tier' as they are rather unexciting
+- Some fixes for the 'remaining tiered items' to prevent them from highlighting tiered precursor emblems
+
+----------------------------------
 # **VERSION 0.8.2c** - BaseType Matrix finetuning
 ----------------------------------
 

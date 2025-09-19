@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.8.2c
+# VERSION:  0.8.3
 # TYPE:     4-VERY-STRICT
 # STYLE:    CUSTOMSOUNDS
 # AUTHOR:   NeverSink
@@ -247,9 +247,50 @@ Show # $type->artifact $tier->fishingrod !exotics_artifacthigh
 #===============================================================================================================
 # !! Waypoint c3.exotic.state.exceptional : "Exotic State - Exceptional Items"
 
-Show # %D6 $type->exotic->exceptional $tier->chancingoverqual !itemproperty_achancing
+Show # %D6 $type->exotic->exceptional $tier->overqual1q1 !exotics_artifacthigh
 	Corrupted False
 	Quality >= 27
+	Rarity Normal Magic Rare
+	BaseType == "Adherent Cuffs" "Aegis Quarterstaff" "Akoyan Spear" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sirenscale Gloves" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Vile Robe" "Warlord Cuirass" "Withered Wand" "Wrath Sceptre"
+	SetFontSize 42
+	SetTextColor 240 0 0 255
+	SetBorderColor 240 0 0 255
+	SetBackgroundColor 70 0 20 255
+	CustomAlertSound "3uniques.mp3" 300
+	PlayEffect Orange
+	MinimapIcon 0 Orange Pentagon
+
+Show # %D6 $type->exotic->exceptional $tier->oversockt1s3 !exotics_artifacthigh
+	Corrupted False
+	Sockets >= 3
+	Rarity Normal Magic Rare
+	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
+	BaseType == "Adherent Cuffs" "Aegis Quarterstaff" "Akoyan Spear" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sirenscale Gloves" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Vile Robe" "Warlord Cuirass" "Withered Wand" "Wrath Sceptre"
+	SetFontSize 42
+	SetTextColor 240 0 0 255
+	SetBorderColor 240 0 0 255
+	SetBackgroundColor 70 0 20 255
+	CustomAlertSound "3uniques.mp3" 300
+	PlayEffect Orange
+	MinimapIcon 0 Orange Pentagon
+
+Show # %D6 $type->exotic->exceptional $tier->oversockt1s2 !exotics_artifacthigh
+	Corrupted False
+	Sockets >= 2
+	Rarity Normal Magic Rare
+	Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
+	BaseType == "Adherent Cuffs" "Aegis Quarterstaff" "Akoyan Spear" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sirenscale Gloves" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Vile Robe" "Warlord Cuirass" "Withered Wand" "Wrath Sceptre"
+	SetFontSize 42
+	SetTextColor 240 0 0 255
+	SetBorderColor 240 0 0 255
+	SetBackgroundColor 70 0 20 255
+	CustomAlertSound "3uniques.mp3" 300
+	PlayEffect Orange
+	MinimapIcon 0 Orange Pentagon
+
+Show # %D6 $type->exotic->exceptional $tier->chancingoverqual !itemproperty_achancing
+	Corrupted False
+	Quality >= 24
 	Rarity Normal
 	BaseType == "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Artillery Bow" "Blacksteel Tower Shield" "Chain Tiara" "Conqueror Plate" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Face Mask" "Fine Bracers" "Golden Charm" "Grand Regalia" "Helix Spear" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Primed Quiver" "Ring" "Ruby" "Sacred Focus" "Sapphire" "Shrine Sceptre" "Silver Charm" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Ultimate Life Flask" "Unset Ring" "Utility Wraps" "Vase Relic" "Viper Cap"
 	SetFontSize 45
@@ -288,66 +329,11 @@ Show # %D6 $type->exotic->exceptional $tier->chancingoversocket2 !itemproperty_a
 	PlayEffect Red
 	MinimapIcon 0 Red Diamond
 
-Show # %D6 $type->exotic->exceptional $tier->overqual1q1 !exotics_btier
-	Corrupted False
-	Quality >= 27
-	Rarity Normal Magic Rare
-	BaseType == "Adherent Cuffs" "Aegis Quarterstaff" "Akoyan Spear" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sirenscale Gloves" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Vile Robe" "Warlord Cuirass" "Withered Wand" "Wrath Sceptre"
-	SetFontSize 42
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 0 75 30 255
-	CustomAlertSound "3uniques.mp3" 300
-	PlayEffect Blue
-	MinimapIcon 0 Blue Diamond
-
-Show # %D6 $type->exotic->exceptional $tier->overqual1q2 !exotics_btier
-	Corrupted False
-	Quality >= 24
-	Rarity Normal Magic Rare
-	BaseType == "Acrid Wand" "Adherent Cuffs" "Aegis Quarterstaff" "Akoyan Club" "Akoyan Spear" "Ancestral Tiara" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Chiming Staff" "Cinched Boots" "Commander Gauntlets" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Helm" "Cryptic Leggings" "Cultist Gauntlets" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Death Mantle" "Desert Buckler" "Desert Cap" "Desolate Crossbow" "Divine Crown" "Dragonscale Boots" "Drakeskin Boots" "Dueling Wand" "Elegant Crossbow" "Elegant Wraps" "Falconer's Jacket" "Fanatic Bow" "Fanatic Greathammer" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Flying Spear" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gemini Crossbow" "Gladiatorial Helm" "Gleaming Cuffs" "Golden Targe" "Grand Bracers" "Grand Spear" "Grinning Mask" "Guardian Bow" "Imperial Greathelm" "Kamasan Tiara" "Leyline Focus" "Lunar Quarterstaff" "Luxurious Slippers" "Marauding Mace" "Masked Greathelm" "Massive Greathammer" "Massive Mitts" "Noble Sabatons" "Obliterator Bow" "Omen Sceptre" "Opulent Gloves" "Orichalcum Spear" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Paralysing Staff" "Penetrating Quiver" "Polished Bracers" "Primed Quiver" "Pronged Spear" "Quickslip Shoes" "Rambler Jacket" "Rattling Sceptre" "Razor Quarterstaff" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seaglass Spear" "Seastorm Mantle" "Secured Wraps" "Sekhema Sandals" "Shrouded Mail" "Siege Crossbow" "Siphoning Wand" "Sirenscale Gloves" "Sleek Jacket" "Slipstrike Vest" "Soaring Mask" "Soaring Targe" "Soldier Cuirass" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Greatclub" "Tawhoan Tower Shield" "Thane Mail" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Vile Robe" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
-	SetFontSize 42
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 0 75 30 255
-	CustomAlertSound "3uniques.mp3" 300
-	PlayEffect Blue
-	MinimapIcon 0 Blue Diamond
-
-Show # %D6 $type->exotic->exceptional $tier->oversockt1s3 !exotics_btier
-	Corrupted False
-	Sockets >= 3
-	Rarity Normal Magic Rare
-	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
-	BaseType == "Adherent Cuffs" "Aegis Quarterstaff" "Akoyan Spear" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sirenscale Gloves" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Vile Robe" "Warlord Cuirass" "Withered Wand" "Wrath Sceptre"
-	SetFontSize 42
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 0 75 30 255
-	CustomAlertSound "3uniques.mp3" 300
-	PlayEffect Blue
-	MinimapIcon 0 Blue Diamond
-
 Show # %D6 $type->exotic->exceptional $tier->oversockt2s3 !exotics_btier
 	Corrupted False
 	Sockets >= 3
 	Rarity Normal Magic Rare
 	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
-	BaseType == "Acrid Wand" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Kamasan Tiara" "Leyline Focus" "Lunar Quarterstaff" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Obliterator Bow" "Opulent Gloves" "Orichalcum Spear" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Pronged Spear" "Quickslip Shoes" "Rambler Jacket" "Rattling Sceptre" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seaglass Spear" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Warmonger Bow" "Wolfskin Mantle" "Woven Cap" "Wyrmscale Coat"
-	SetFontSize 42
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 0 75 30 255
-	CustomAlertSound "3uniques.mp3" 300
-	PlayEffect Blue
-	MinimapIcon 0 Blue Diamond
-
-Show # %D6 $type->exotic->exceptional $tier->oversockt1s2 !exotics_btier
-	Corrupted False
-	Sockets >= 2
-	Rarity Normal Magic Rare
-	Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
-	BaseType == "Adherent Cuffs" "Aegis Quarterstaff" "Akoyan Spear" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sirenscale Gloves" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Vile Robe" "Warlord Cuirass" "Withered Wand" "Wrath Sceptre"
 	SetFontSize 42
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
@@ -361,7 +347,18 @@ Show # %D6 $type->exotic->exceptional $tier->oversockt2s2 !exotics_btier
 	Sockets >= 2
 	Rarity Normal Magic Rare
 	Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
-	BaseType == "Acrid Wand" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Kamasan Tiara" "Leyline Focus" "Lunar Quarterstaff" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Obliterator Bow" "Opulent Gloves" "Orichalcum Spear" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Pronged Spear" "Quickslip Shoes" "Rambler Jacket" "Rattling Sceptre" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seaglass Spear" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Warmonger Bow" "Wolfskin Mantle" "Woven Cap" "Wyrmscale Coat"
+	SetFontSize 42
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 0 75 30 255
+	CustomAlertSound "3uniques.mp3" 300
+	PlayEffect Blue
+	MinimapIcon 0 Blue Diamond
+
+Show # %D6 $type->exotic->exceptional $tier->overqual1q2 !exotics_btier
+	Corrupted False
+	Quality >= 24
+	Rarity Normal Magic Rare
 	SetFontSize 42
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
@@ -387,23 +384,24 @@ Show # %D6 $type->exotic->exceptional $tier->oversockt2s2 !exotics_btier
 #	PlayEffect Red
 #	MinimapIcon 0 Red Star
 
-#Show # $type->chancing $tier->chancea !itemproperty_achancing
-#	Mirrored False
-#	Corrupted False
-#	Rarity Normal
-#	SetFontSize 45
-#	SetTextColor 125 255 89 255
-#	SetBorderColor 125 255 89 255
-#	SetBackgroundColor 0 50 0
-#	CustomAlertSound "1maybevaluable.mp3" 300
-#	PlayEffect Red
-#	MinimapIcon 0 Red Diamond
+Show # $type->chancing $tier->chancea !itemproperty_achancing
+	Mirrored False
+	Corrupted False
+	Rarity Normal
+	BaseType == "Heavy Belt"
+	SetFontSize 45
+	SetTextColor 125 255 89 255
+	SetBorderColor 125 255 89 255
+	SetBackgroundColor 0 50 0
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red Diamond
 
 #Show # %D2 $type->chancing $tier->chanceany !itemproperty_bchancing
 #	Mirrored False
 #	Corrupted False
 #	Rarity Normal
-#	BaseType == "Heavy Belt" "Silver Charm"
+#	BaseType == "Silver Charm" "Viper Cap"
 #	SetFontSize 40
 #	SetBorderColor 0 200 95
 #	CustomAlertSound "3uniques.mp3" 300
@@ -978,6 +976,7 @@ Show # %D5 $type->ut->rare $tier->j2c !gear_highlightedsize
 Show # %D6 $type->ut->rare $tier->anyremaining5 !exotics_btier
 	UnidentifiedItemTier >= 5
 	Rarity Rare
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 42
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
@@ -989,6 +988,7 @@ Show # %D6 $type->ut->rare $tier->anyremaining5 !exotics_btier
 Show # %D5 $type->ut->rare $tier->anyremaining4 !gear_tieredjewellery
 	UnidentifiedItemTier >= 4
 	Rarity Rare
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 42
 	SetTextColor 255 255 0 255
 	SetBorderColor 220 220 0
@@ -1155,6 +1155,7 @@ Show # %D4 $type->ut->magic $tier->j2c !gear_highlightdrop2
 Show # %D6 $type->ut->magic $tier->anyremaining5 !exotics_ctier
 	UnidentifiedItemTier >= 5
 	Rarity Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 	SetFontSize 40
 	SetTextColor 0 240 190 255
 	CustomAlertSound "3uniques.mp3" 300
@@ -1164,6 +1165,7 @@ Show # %D6 $type->ut->magic $tier->anyremaining5 !exotics_ctier
 #Show # %D3 $type->ut->magic $tier->anyremaining4 !gear_highlightdrop2
 #	UnidentifiedItemTier >= 4
 #	Rarity Magic
+#	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Two Hand Maces" "Wands"
 #	SetFontSize 42
 #	SetBackgroundColor 30 0 70 255
 
@@ -1184,7 +1186,7 @@ Show # %D5 $type->endgame->flasks $tier->toplevelqualityflasks
 	SetBorderColor 245 175 0
 	SetBackgroundColor 10 60 40
 
-Show # %D4 $type->endgame->flasks $tier->toplevelflasks
+Show # %D5 $type->endgame->flasks $tier->toplevelflasks
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 83
@@ -2235,7 +2237,7 @@ Show # $type->gems->lineage $tier->a !uniques_a
 
 Show # $type->gems->lineage $tier->b !uniques_x
 	Class == "Skill Gems" "Support Gems"
-	BaseType == "Ahn's Citadel" "Ailith's Chimes" "Arakaali's Lust" "Atziri's Allure" "Daresso's Passion" "Doedre's Undoing" "Einhar's Beastrite" "Kaom's Madness" "Kulemak's Dominion" "Kurgal's Leash" "Paquate's Pact" "Piety's Mercy" "Sione's Temper" "Tacati's Ire" "Tawhoa's Tending" "Tecrod's Revenge" "Uruk's Smelting" "Varashta's Blessing" "Vilenta's Propulsion" "Zarokh's Refrain"
+	BaseType == "Ahn's Citadel" "Ailith's Chimes" "Arakaali's Lust" "Atziri's Allure" "Doedre's Undoing" "Einhar's Beastrite" "Kaom's Madness" "Kulemak's Dominion" "Piety's Mercy" "Sione's Temper" "Tawhoa's Tending" "Tecrod's Revenge" "Uruk's Smelting" "Vilenta's Propulsion" "Zarokh's Refrain"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2244,31 +2246,16 @@ Show # $type->gems->lineage $tier->b !uniques_x
 	PlayEffect Blue
 	MinimapIcon 1 Blue Star
 
-#Show # %H6 $type->gems->lineage $tier->c !uniques_x
-#	Class == "Skill Gems" "Support Gems"
-#	SetFontSize 42
-#	SetTextColor 0 0 0 255
-#	SetBorderColor 0 0 0 255
-#	SetBackgroundColor 188 96 37 255
-#	CustomAlertSound "3uniques.mp3" 300
-#	PlayEffect Blue
-#	MinimapIcon 1 Blue Star
-
-#Show # %H5 $type->gems->lineage $tier->d !uniques_c
-#	Class == "Skill Gems" "Support Gems"
-#	SetFontSize 40
-#	SetTextColor 188 96 37 255
-#	CustomAlertSound "3uniques.mp3" 300
-#	PlayEffect Brown
-#	MinimapIcon 2 Brown Star
-
-#Show # %H4 $type->gems->lineage $tier->e !uniques_c
-#	Class == "Skill Gems" "Support Gems"
-#	SetFontSize 40
-#	SetTextColor 188 96 37 255
-#	CustomAlertSound "3uniques.mp3" 300
-#	PlayEffect Brown
-#	MinimapIcon 2 Brown Star
+Show # %H6 $type->gems->lineage $tier->c !uniques_b
+	Class == "Skill Gems" "Support Gems"
+	BaseType == "Daresso's Passion" "Kurgal's Leash" "Paquate's Pact" "Tacati's Ire" "Varashta's Blessing"
+	SetFontSize 42
+	SetTextColor 188 96 37 255
+	SetBorderColor 188 96 37 255
+	SetBackgroundColor 53 13 13 255
+	CustomAlertSound "3uniques.mp3" 300
+	PlayEffect Brown
+	MinimapIcon 1 Brown Star
 
 # Level20
 
@@ -2928,7 +2915,7 @@ Show # $type->waystones $tier->restex !utility_unknownitem
 
 Show # %D5 $type->currency->leveling $tier->rare
 	Class == "Stackable Currency"
-	BaseType == "Artificer's Orb" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Lesser Essence of Abrasion" "Lesser Essence of Alacrity" "Lesser Essence of Battle" "Lesser Essence of Command" "Lesser Essence of Electricity" "Lesser Essence of Enhancement" "Lesser Essence of Flames" "Lesser Essence of Grounding" "Lesser Essence of Haste" "Lesser Essence of Ice" "Lesser Essence of Insulation" "Lesser Essence of Opulence" "Lesser Essence of Ruin" "Lesser Essence of Seeking" "Lesser Essence of Sorcery" "Lesser Essence of Thawing" "Lesser Essence of the Body" "Lesser Essence of the Infinite" "Lesser Essence of the Mind" "Lesser Jeweller's Orb" "Regal Orb"
+	BaseType == "Artificer's Orb" "Gnawed Collarbone" "Gnawed Jawbone" "Gnawed Rib" "Greater Orb of Augmentation" "Greater Orb of Transmutation" "Lesser Essence of Abrasion" "Lesser Essence of Alacrity" "Lesser Essence of Battle" "Lesser Essence of Command" "Lesser Essence of Electricity" "Lesser Essence of Enhancement" "Lesser Essence of Flames" "Lesser Essence of Grounding" "Lesser Essence of Haste" "Lesser Essence of Ice" "Lesser Essence of Insulation" "Lesser Essence of Opulence" "Lesser Essence of Ruin" "Lesser Essence of Seeking" "Lesser Essence of Sorcery" "Lesser Essence of Thawing" "Lesser Essence of the Body" "Lesser Essence of the Infinite" "Lesser Essence of the Mind" "Lesser Jeweller's Orb" "Regal Orb"
 	AreaLevel < 65
 	SetFontSize 42
 	SetTextColor 0 0 0 255
@@ -2990,7 +2977,7 @@ Show # $type->currency $tier->a !currency_a
 
 Show # $type->currency $tier->b !currency_b
 	Class == "Stackable Currency"
-	BaseType == "Chaos Orb" "Exotic Coinage" "Greater Chaos Orb" "Greater Exalted Orb" "Greater Regal Orb" "Orb of Chance" "Preserved Cranium" "Preserved Rib"
+	BaseType == "Chaos Orb" "Greater Chaos Orb" "Greater Exalted Orb" "Greater Regal Orb" "Orb of Chance" "Preserved Cranium" "Preserved Rib"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3032,7 +3019,7 @@ Hide # %H3 $type->currency $tier->e !currency_e
 
 Show # $type->currency $tier->artifactlike !currency_specialartifact
 	Class == "Stackable Currency"
-	BaseType == "Black Scythe Artifact" "Broken Circle Artifact" "Order Artifact" "Sun Artifact"
+	BaseType == "Black Scythe Artifact" "Broken Circle Artifact" "Exotic Coinage" "Order Artifact" "Sun Artifact"
 	SetFontSize 40
 	SetTextColor 240 207 132
 	SetBorderColor 240 207 132
@@ -3367,7 +3354,7 @@ Show # $type->currency->omen $tier->c !currency_c
 
 Show # $type->currency->omen $tier->d !currency_d
 	Class == "Omen"
-	BaseType == "Omen of Refreshment" "Omen of the Liege" "Petition Splinter"
+	BaseType == "Omen of Refreshment" "Omen of the Liege"
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -3386,7 +3373,7 @@ Show # $type->currency->omen $tier->d !currency_d
 
 Hide # $type->currency->omen $tier->exhide !utility_minimize
 	Class == "Omen"
-	BaseType == "Omen of Answered Prayers" "Omen of Bartering" "Omen of Catalysing Exaltation" "Omen of Chaotic Monsters" "Omen of Chaotic Quantity" "Omen of Dextral Exaltation" "Omen of Dextral Necromancy" "Omen of Gambling" "Omen of Greater Exaltation" "Omen of Homogenising Coronation" "Omen of Refreshment" "Omen of Reinforcements" "Omen of Resurgence" "Omen of Secret Compartments" "Omen of Sinistral Exaltation" "Omen of Sinistral Necromancy" "Omen of the Ancients" "Omen of the Blackblooded" "Omen of the Blessed" "Omen of the Hunt" "Omen of the Liege" "Omen of the Sovereign" "Petition Splinter"
+	BaseType == "Omen of Answered Prayers" "Omen of Bartering" "Omen of Catalysing Exaltation" "Omen of Chaotic Monsters" "Omen of Chaotic Quantity" "Omen of Dextral Exaltation" "Omen of Dextral Necromancy" "Omen of Gambling" "Omen of Greater Exaltation" "Omen of Homogenising Coronation" "Omen of Refreshment" "Omen of Reinforcements" "Omen of Resurgence" "Omen of Secret Compartments" "Omen of Sinistral Exaltation" "Omen of Sinistral Necromancy" "Omen of the Ancients" "Omen of the Blackblooded" "Omen of the Blessed" "Omen of the Hunt" "Omen of the Liege" "Omen of the Sovereign"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -3404,48 +3391,58 @@ Show # $type->currency->omen $tier->restex !utility_unknownitem
 #===============================================================================================================
 # [[2600]] Misc Map Like
 #===============================================================================================================
-# !! Waypoint c10.fragments.special : "Special Keys - Pinnacle, Logbook"
+# !! Waypoint c10.fragments.special : "Special Keys - Pinnacle, Logbook, Calamity, RelicKeys"
 
-Show # $type->maplike->special $tier->vaultkeys !exotics_artifacthigh
-	BaseType "Olroth's Reliquary Key" "Ritualistic Reliquary Key" "Tangmazu's Reliquary Key" "The Arbiter's Reliquary Key" "The Trialmaster's Reliquary Key" "Twilight Reliquary Key" "Xesht's Reliquary Key" "Zarokh's Reliquary Key"
+Show # $type->maplike->special $tier->vaultkeysrare !fragments_a
+	BaseType == "Olroth's Reliquary Key" "Ritualistic Reliquary Key" "Tangmazu's Reliquary Key" "The Arbiter's Reliquary Key" "The Trialmaster's Reliquary Key" "Xesht's Reliquary Key" "Zarokh's Reliquary Key"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 220 0 255 255
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon
+
+Show # $type->maplike->special $tier->vaultkeys !fragments_b
+	BaseType == "Twilight Reliquary Key"
 	SetFontSize 42
-	SetTextColor 240 0 0 255
-	SetBorderColor 240 0 0 255
-	SetBackgroundColor 70 0 20 255
-	CustomAlertSound "3uniques.mp3" 300
-	PlayEffect Orange
-	MinimapIcon 0 Orange Pentagon
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 220 0 255 255
+	CustomAlertSound "2currency.mp3" 300
+	PlayEffect Purple
+	MinimapIcon 1 Yellow Hexagon
 
-Show # $type->maplike->special $tier->superkeys !exotics_artifacthigh
+Show # $type->maplike->special $tier->superkeys !fragments_a
 	Class == "Pinnacle Keys"
-	SetFontSize 42
-	SetTextColor 240 0 0 255
-	SetBorderColor 240 0 0 255
-	SetBackgroundColor 70 0 20 255
-	CustomAlertSound "3uniques.mp3" 300
-	PlayEffect Orange
-	MinimapIcon 0 Orange Pentagon
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 220 0 255 255
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon
 
-Show # $type->maplike->special $tier->logbookshigh !exotics_artifacthigh
+Show # $type->maplike->special $tier->logbookshigh !fragments_a
 	ItemLevel >= 77
 	Class == "Expedition Logbooks"
-	SetFontSize 42
-	SetTextColor 240 0 0 255
-	SetBorderColor 240 0 0 255
-	SetBackgroundColor 70 0 20 255
-	CustomAlertSound "3uniques.mp3" 300
-	PlayEffect Orange
-	MinimapIcon 0 Orange Pentagon
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 220 0 255 255
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon
 
-Show # %HS5 $type->maplike->special $tier->logbookslow !exotics_artifact
+Show # $type->maplike->special $tier->logbookslow !fragments_a
 	Class == "Expedition Logbooks"
-	SetFontSize 40
-	SetTextColor 240 0 0 255
-	SetBorderColor 240 0 0 255
-	SetBackgroundColor 20 20 0 255
-	CustomAlertSound "3uniques.mp3" 300
-	PlayEffect Orange
-	MinimapIcon 1 Orange Pentagon
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 220 0 255 255
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon
 
 #===============================================================================================================
 # [[2700]] Uniques
@@ -3511,7 +3508,7 @@ Show # $type->uniques $tier->multispecialhigh !uniques_x
 	MinimapIcon 1 Blue Star
 
 Show # %D5 $type->uniques $tier->overqualityuniques !uniques_exceptional
-	Quality >= 26
+	Quality >= 24
 	Rarity Unique
 	SetFontSize 42
 	SetTextColor 0 0 0 255
@@ -3696,6 +3693,17 @@ Show # %D6 $type->currency->splinter $tier->t5 !fragments_splinter5
 	PlayEffect Purple Temp
 	MinimapIcon 1 White Kite
 
+Show # $type->fragments->generic $tier->exraretablets !fragments_a
+	Rarity Rare
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 220 0 255 255
+	CustomAlertSound "1maybevaluable.mp3" 300
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon
+
 #Show # $type->fragments->generic $tier->s !apex_stier
 #	SetFontSize 45
 #	SetTextColor 255 0 0 255
@@ -3706,7 +3714,7 @@ Show # %D6 $type->currency->splinter $tier->t5 !fragments_splinter5
 #	MinimapIcon 0 Red Star
 
 Show # $type->fragments->generic $tier->a !fragments_a
-	BaseType == "An Audience with the King" "Breachstone" "Cowardly Fate" "Deadly Fate" "Expedition Precursor Tablet" "Idol of Estazunti" "Kulemak's Invitation" "Simulacrum" "Victorious Fate"
+	BaseType == "An Audience with the King" "Breachstone" "Cowardly Fate" "Deadly Fate" "Idol of Estazunti" "Kulemak's Invitation" "Simulacrum" "Victorious Fate"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -3715,24 +3723,24 @@ Show # $type->fragments->generic $tier->a !fragments_a
 	PlayEffect Red
 	MinimapIcon 0 Red Hexagon
 
-Show # $type->fragments->generic $tier->b !fragments_b
-	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet"
-	SetFontSize 42
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 220 0 255 255
-	CustomAlertSound "2currency.mp3" 300
-	PlayEffect Purple
-	MinimapIcon 1 Yellow Hexagon
-
-#Show # $type->fragments->generic $tier->c !fragments_c
+#Show # $type->fragments->generic $tier->b !fragments_b
 #	SetFontSize 42
 #	SetTextColor 0 0 0 255
 #	SetBorderColor 0 0 0 255
-#	SetBackgroundColor 180 75 225 255
+#	SetBackgroundColor 220 0 255 255
 #	CustomAlertSound "2currency.mp3" 300
-#	PlayEffect Purple Temp
-#	MinimapIcon 1 White Hexagon
+#	PlayEffect Purple
+#	MinimapIcon 1 Yellow Hexagon
+
+Show # $type->fragments->generic $tier->c !fragments_c
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 180 75 225 255
+	CustomAlertSound "2currency.mp3" 300
+	PlayEffect Purple Temp
+	MinimapIcon 1 White Hexagon
 
 #Show # $type->fragments->generic $tier->d !fragments_d
 #	SetFontSize 40
@@ -3750,7 +3758,7 @@ Show # $type->fragments->generic $tier->b !fragments_b
 #	MinimapIcon 2 Grey Hexagon
 
 Hide # $type->fragments->generic $tier->exhide !utility_minimize
-	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet"
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
