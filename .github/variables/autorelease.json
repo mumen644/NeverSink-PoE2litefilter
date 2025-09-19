@@ -6,11 +6,11 @@
     },
     {
       "name": "version",
-      "value": "0.8.2c"
+      "value": "0.8.3"
     },
     {
       "name": "suffix",
-      "value": "BaseType Matrix finetuning"
+      "value": "Tiering and long-term improvements"
     }
   ]
 }
