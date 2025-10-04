@@ -7,6 +7,13 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.8.3a** - S-tier and A-tier floor increase
+----------------------------------
+
+- The PoE2 economy is once again going a bit out of control with Ex Climbing to 500:1div.
+- I've adjusted the calculations for the S-tier and A-tier thresholds to accomodate this. They should be around 50% higher than before
+
+----------------------------------
 # **VERSION 0.8.3** - Tiering and long-term improvements
 ----------------------------------
 
