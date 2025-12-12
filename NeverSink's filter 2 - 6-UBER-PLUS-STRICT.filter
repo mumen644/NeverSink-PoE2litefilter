@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.9.0
+# VERSION:  0.9.0a
 # TYPE:     6-UBER-PLUS-STRICT
 # STYLE:    DEFAULT
 # AUTHOR:   NeverSink
@@ -308,7 +308,7 @@ Show # %D6 $type->exotic->exceptional $tier->chancingoverqual !itemproperty_acha
 	Corrupted False
 	Quality >= 24
 	Rarity Normal
-	BaseType == "Altar Robe" "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Face Mask" "Fanatic Bow" "Fine Bracers" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Grand Manchettes" "Heavy Bow" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Martyr Crown" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Reflecting Staff" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sacrificial Regalia" "Sapphire" "Sapphire Charm" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Topaz Charm" "Torment Club" "Totemic Greatclub" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic"
+	BaseType == "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Face Mask" "Fanatic Bow" "Fine Bracers" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Grand Manchettes" "Heavy Bow" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Martyr Crown" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plated Vestments" "Primed Quiver" "Reflecting Staff" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sacrificial Regalia" "Sapphire" "Sapphire Charm" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Topaz Charm" "Torment Club" "Totemic Greatclub" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -322,7 +322,7 @@ Show # %D6 $type->exotic->exceptional $tier->chancingoversocket3 !itemproperty_a
 	Sockets >= 3
 	Rarity Normal
 	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Talismans" "Two Hand Maces"
-	BaseType == "Altar Robe" "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Face Mask" "Fanatic Bow" "Fine Bracers" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Grand Manchettes" "Heavy Bow" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Martyr Crown" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Reflecting Staff" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sacrificial Regalia" "Sapphire" "Sapphire Charm" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Topaz Charm" "Torment Club" "Totemic Greatclub" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic"
+	BaseType == "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Face Mask" "Fanatic Bow" "Fine Bracers" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Grand Manchettes" "Heavy Bow" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Martyr Crown" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plated Vestments" "Primed Quiver" "Reflecting Staff" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sacrificial Regalia" "Sapphire" "Sapphire Charm" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Topaz Charm" "Torment Club" "Totemic Greatclub" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -336,7 +336,7 @@ Show # %D6 $type->exotic->exceptional $tier->chancingoversocket2 !itemproperty_a
 	Sockets >= 2
 	Rarity Normal
 	Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
-	BaseType == "Altar Robe" "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Face Mask" "Fanatic Bow" "Fine Bracers" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Grand Manchettes" "Heavy Bow" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Martyr Crown" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Reflecting Staff" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sacrificial Regalia" "Sapphire" "Sapphire Charm" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Topaz Charm" "Torment Club" "Totemic Greatclub" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic"
+	BaseType == "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Face Mask" "Fanatic Bow" "Fine Bracers" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Grand Manchettes" "Heavy Bow" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Martyr Crown" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plated Vestments" "Primed Quiver" "Reflecting Staff" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sacrificial Regalia" "Sapphire" "Sapphire Charm" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Topaz Charm" "Torment Club" "Totemic Greatclub" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic"
 	SetFontSize 45
 	SetTextColor 125 255 89 255
 	SetBorderColor 125 255 89 255
@@ -916,7 +916,7 @@ Show # %D6 $type->ut->rare $tier->gear4b !exotics_ctier
 Show # %D6 $type->ut->rare $tier->j4a !exotics_btier
 	UnidentifiedItemTier >= 4
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -929,7 +929,7 @@ Show # %D6 $type->ut->rare $tier->j4a !exotics_btier
 Show # %D6 $type->ut->rare $tier->j3a !exotics_btier
 	UnidentifiedItemTier >= 3
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -942,7 +942,7 @@ Show # %D6 $type->ut->rare $tier->j3a !exotics_btier
 Show # %D6 $type->ut->rare $tier->j2a !gear_tieredjewellery
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 255 255 0 255
@@ -1162,7 +1162,7 @@ Show # %D6 $type->ut->magic $tier->gear4b !exotics_ctier
 Show # %D6 $type->ut->magic $tier->j4a !exotics_btier
 	UnidentifiedItemTier >= 4
 	Rarity Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -1175,7 +1175,7 @@ Show # %D6 $type->ut->magic $tier->j4a !exotics_btier
 Show # %D6 $type->ut->magic $tier->j3a !exotics_ctier
 	UnidentifiedItemTier >= 3
 	Rarity Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -1186,7 +1186,7 @@ Show # %D6 $type->ut->magic $tier->j3a !exotics_ctier
 Show # %D6 $type->ut->magic $tier->j2a !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -1675,7 +1675,7 @@ Show # %D6 $type->endgame->jewellery $tier->jt1ideallevel !gear_highlightdrop2
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -1712,7 +1712,7 @@ Show # %D6 $type->endgame->jewellery $tier->jt1ideallevel !gear_highlightdrop2
 #	Mirrored False
 #	Corrupted False
 #	Rarity Normal Magic
-#	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+#	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 #	AreaLevel >= 65
 #	SetFontSize 40
 #	SetBackgroundColor 30 0 70 255
@@ -1833,7 +1833,7 @@ Hide # $type->hidelayer $tier->normalmagicendgame
 Show # %D6 $type->rr->jewelleryeg $tier->t1 !gear_jewellery1
 	ItemLevel >= 82
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	SetFontSize 42
 	SetBackgroundColor 75 75 0
 	PlayEffect Yellow
@@ -1869,7 +1869,7 @@ Show # %D6 $type->rr->jewelleryeg $tier->t2 !gear_jewellery1
 Show # %D6 $type->rr->jewellery $tier->t1 !gear_jewellery1
 	ItemLevel >= 65
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Pearlescent Amulet" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	SetFontSize 42
 	SetBackgroundColor 75 75 0
 	PlayEffect Yellow
@@ -3579,7 +3579,7 @@ Show # $type->uniques $tier->t1 !apex_stier
 
 Show # $type->uniques $tier->t2 !uniques_a
 	Rarity Unique
-	BaseType == "Altar Robe" "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Death Mask" "Decorated Helm" "Diamond" "Embroidered Gloves" "Face Mask" "Fanatic Bow" "Fine Bracers" "Garment" "Giant Maul" "Gilded Vestments" "Grand Manchettes" "Heavy Bow" "Heroic Armour" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Martyr Crown" "Moulded Mitts" "Ornate Belt" "Permafrost Staff" "Reflecting Staff" "Ruby Charm" "Sacred Focus" "Sacrificial Regalia" "Sapphire Charm" "Shrine Sceptre" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Topaz Charm" "Torment Club" "Totemic Greatclub" "Tribal Mask" "Trimmed Greaves" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps"
+	BaseType == "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Death Mask" "Decorated Helm" "Diamond" "Embroidered Gloves" "Face Mask" "Fanatic Bow" "Fine Bracers" "Garment" "Giant Maul" "Gilded Vestments" "Grand Manchettes" "Heavy Bow" "Heroic Armour" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Martyr Crown" "Moulded Mitts" "Ornate Belt" "Permafrost Staff" "Plated Vestments" "Reflecting Staff" "Ruby Charm" "Sacred Focus" "Sacrificial Regalia" "Sapphire Charm" "Shrine Sceptre" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Topaz Charm" "Torment Club" "Totemic Greatclub" "Tribal Mask" "Trimmed Greaves" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -3678,7 +3678,7 @@ Show # $type->uniques $tier->multispecial !uniques_x
 
 Show # $type->uniques $tier->earlyleague !uniques_b
 	Rarity Unique
-	BaseType == "Amber Amulet" "Ancestral Mail" "Antler Focus" "Azure Amulet" "Champion Cuirass" "Corsair Cap" "Corvus Mantle" "Crimson Amulet" "Crucible Tower Shield" "Dualstring Bow" "Emerald Ring" "Feathered Sandals" "Felt Cap" "Fine Belt" "Forked Spear" "Gauze Wraps" "Havoc Raiment" "Heraldric Tower Shield" "Iron Greaves" "Jewelled Gloves" "Lace Hood" "Leatherbound Hood" "Magus Tiara" "Marabout Garb" "Pilgrim Vestments" "Prismatic Ring" "Rampart Tower Shield" "Rawhide Belt" "Sacrificial Mantle" "Scalper's Jacket" "Shrouded Vest" "Spiked Club" "Spired Greathelm" "Stone Greaves" "Strider Vest" "Topaz Ring" "Velvet Cap" "Zealot Bow"
+	BaseType == "Amber Amulet" "Antler Focus" "Azure Amulet" "Champion Cuirass" "Corsair Cap" "Corvus Mantle" "Crimson Amulet" "Crucible Tower Shield" "Dualstring Bow" "Emerald Ring" "Feathered Sandals" "Felt Cap" "Fine Belt" "Forked Spear" "Gauze Wraps" "Havoc Raiment" "Heraldric Tower Shield" "Iron Greaves" "Jewelled Gloves" "Lace Hood" "Leatherbound Hood" "Magus Tiara" "Marabout Garb" "Pilgrim Vestments" "Prismatic Ring" "Rampart Tower Shield" "Rawhide Belt" "Sacrificial Mantle" "Scalper's Jacket" "Shrouded Vest" "Spiked Club" "Spired Greathelm" "Stone Greaves" "Strider Vest" "Topaz Ring" "Velvet Cap" "Zealot Bow"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -4552,16 +4552,16 @@ Show # %D6 $type->leveling->rare->universal $tier->jewellery !gear_jewellery1
 #------------------------------------
 # !! Waypoint c21.leveling.rares.low : "Leveling - Gear - Low Tier"
 
-Hide # %H5 $type->leveling->rare->remaining $tier->anythingact1 class == "body armours" "gloves" "boots" "helmets" "shields" "foci" "bucklers" "staves" "sceptres" "wands" "one hand maces" "spears" "quarterstaves" "two hand maces" "bows" "crossbows" "talismans" "quivers" "amulets" "belts" "rings" !gear_weakrare1
+Hide # %H5 $type->leveling->rare->remaining $tier->anythingact1 class == "body armours" "gloves" "boots" "helmets" "shields" "foci" "bucklers" "staves" "sceptres" "wands" "one hand maces" "spears" "quarterstaves" "two hand maces" "bows" "crossbows" "talismans" "quivers" "amulets" "belts" "rings" !gear_weakrareleveling1
 	Rarity Rare
 	AreaLevel <= 16
-	SetFontSize 35
+	SetFontSize 38
 	SetBackgroundColor 35 35 35 240
 
-Hide # %H4 $type->leveling->rare->remaining $tier->anythingact2 class == "body armours" "gloves" "boots" "helmets" "shields" "foci" "bucklers" "staves" "sceptres" "wands" "one hand maces" "spears" "quarterstaves" "two hand maces" "bows" "crossbows" "talismans" "quivers" "amulets" "belts" "rings" !gear_weakrare1
+Hide # %H4 $type->leveling->rare->remaining $tier->anythingact2 class == "body armours" "gloves" "boots" "helmets" "shields" "foci" "bucklers" "staves" "sceptres" "wands" "one hand maces" "spears" "quarterstaves" "two hand maces" "bows" "crossbows" "talismans" "quivers" "amulets" "belts" "rings" !gear_weakrareleveling1
 	Rarity Rare
 	AreaLevel <= 24
-	SetFontSize 35
+	SetFontSize 38
 	SetBackgroundColor 35 35 35 240
 
 Hide # %H3 $type->leveling->rare->remaining $tier->any class == "body armours" "gloves" "boots" "helmets" "shields" "foci" "bucklers" "staves" "sceptres" "wands" "one hand maces" "spears" "quarterstaves" "two hand maces" "bows" "crossbows" "talismans" "quivers" "amulets" "belts" "rings" !gear_weakrare1
