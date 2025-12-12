@@ -7,6 +7,55 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.9.0** - Last of the Druids Update
+----------------------------------
+
+## TIERING ADJUSTMENTS:
+- Adjusted the tiering in preparation for the new league. This includes retiering of many uniques based on buffs, meta and predictions
+- All currencies have been placed into 'safe positions', the same goes for socketables, essences and other sections
+
+## CONTENT RELATED CHANGES:
+- Purged the removed items (such as Homogenising Omen) from the filter and all related data files
+- Added 6 new rules to highlight different TwiceCorrupted items
+- Added all the new Vaal related currencies, new soul cores (all A-tier for now), abyss tablet
+- Added the first PoE incubator. For now I've expanded the currency section to also support incubators. The incubator is B-tier for now.
+- Added new lineage support gems (all A-tier for now)
+- Added a new unique rule to give Vaal-Origin items some extra highlight (for the Krangler-Machine)
+- Added a rule to highlight items with a Vaal Unique Mod
+- Migrated all the basetypes (written a script that migrates economy data, safeguard, aspect and file file snapshots automatically - huge time saver for future updates)
+- Added support for talismans across the filter and dedicated leveling sections
+- Added all new other basetypes and changes
+
+## TIERED ITEMS:
+- Split the 'remaining tiered rares/magics' into jewellery and gear sections
+
+## CAMPAIGN ADJUSTMENTS:
+- Split campaign shields and rare shields into 3 subsections: tower shields, crest shields and targes.
+- Endgame Tier-based rules can no longer apply during campaign
+- Adjusted the priorities of leveling rules a bit
+- Most leveling rules now consistently use AreaLevel <= 64
+- Added gold progression for campaign. Medium pile highlight stacksize now scales with area level
+- Split the campaign Baryas (Sekhema Trial Access key) rules into 1-point and 2-point versions. 1-point baryas are now hidden on strict and above, since you likely will get your first ascendancy through the (free) key. 2-point baryas are still shown and emit a sound
+
+## MISC CHANGES:
+- ANY 21%+ quality item is now highlighted.
+- Reduced the highlight of 'Rare Tablets'. Not sure if this section matters at all anymore.
+- Increased medium gold pile requirement in the endgame from 500->650
+- The hider rules usually used by FilterBlade now hide items up to and including tier 3.
+- The highlight for socketable items (for salvaging) has been reworked: it now has a section for small items and other items (previously large items and other items)
+- Salvaging rules now include quality charms
+- There's a lot of smaller changes and improvements all over the filter that are improving structure, architecture and other aspects without creating a noticable impact. Ask on the discord if anything is unclear!
+- Adjusted the appearance of remaining T4 items (any rank)
+
+----------------------------------
+# **VERSION 0.8.3b** - Further economy improvements
+----------------------------------
+
+- Moved some bows higher in the basetype tiering
+- Further adjusted the economy based tiering to better match the current state of the PoE2 economy
+- Added some missing aspects to make a few tiering decisions more robust
+
+----------------------------------
 # **VERSION 0.8.3a** - S-tier and A-tier floor increase
 ----------------------------------
 
