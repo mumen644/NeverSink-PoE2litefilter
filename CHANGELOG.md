@@ -10,6 +10,10 @@ Major thanks to all patreon supports to help us fund the continious development.
 # **VERSION 0.9.0** - Last of the Druids Update
 ----------------------------------
 
+## STYLE & MAJOR FILTERBLADE CHANGES:
+- Added a new style: 'Mythic' - it's a WoW inspired style with a focus on value tiering and wow-inspired color clustering
+- Added the Endgame Auto-Adjust tool to FilterBlade.
+
 ## TIERING ADJUSTMENTS:
 - Adjusted the tiering in preparation for the new league. This includes retiering of many uniques based on buffs, meta and predictions
 - All currencies have been placed into 'safe positions', the same goes for socketables, essences and other sections
