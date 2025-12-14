@@ -7,6 +7,12 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.9.0a** - Last of the Druids Update
+----------------------------------
+
+- Increased fontsize of the weak rare leveling items to make them more visible
+
+----------------------------------
 # **VERSION 0.9.0** - Last of the Druids Update
 ----------------------------------
 
