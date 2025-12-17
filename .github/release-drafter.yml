@@ -1,7 +1,15 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  - Increased fontsize of the weak rare leveling items to make them more visible
+  ## TIERING ADJUSTMENTS
+  - Onboarded all new uniques
+  - Adjusted all tierlists to better match the current economy
+  - Improved safeguards for this and future leagues
+  
+  ## MISC CHANGES
+  - Made the highlight of high tier normal/magic best bases (Obliterator bows, Ancestral Tiaras etc) less strict, as these are crucial for crafting and also sell fairly well
+  - Added a new campaign rule to highlight lesser jeweller's orbs during leveling with stronger highlight
+  - Adjusted gold stack size offsets a bit
   
   ------
 

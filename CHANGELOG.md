@@ -7,6 +7,20 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.9.1** - Last of the Druids - Stable Update
+----------------------------------
+
+## TIERING ADJUSTMENTS
+- Onboarded all new uniques
+- Adjusted all tierlists to better match the current economy
+- Improved safeguards for this and future leagues
+
+## MISC CHANGES
+- Made the highlight of high tier normal/magic best bases (Obliterator bows, Ancestral Tiaras etc) less strict, as these are crucial for crafting and also sell fairly well
+- Added a new campaign rule to highlight lesser jeweller's orbs during leveling with stronger highlight
+- Adjusted gold stack size offsets a bit
+
+----------------------------------
 # **VERSION 0.9.0a** - Last of the Druids Update
 ----------------------------------
 
