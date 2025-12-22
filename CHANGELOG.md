@@ -12,6 +12,7 @@ Major thanks to all patreon supports to help us fund the continious development.
 
 - Adjusted rules for: Grand Regalia, Ravenous Staff, Sacrificial Regalia, Tribal Mask
 - Added Tribal mask as a chancing base
+- Adjusted abyss tablet tiering rule
 
 ----------------------------------
 # **VERSION 0.9.1** - Last of the Druids - Stable Update
