@@ -7,6 +7,14 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.9.1a** - Minor Tiering Adjustments
+----------------------------------
+
+- Adjusted rules for: Grand Regalia, Ravenous Staff, Sacrificial Regalia, Tribal Mask
+- Added Tribal mask as a chancing base
+- Adjusted abyss tablet tiering rule
+
+----------------------------------
 # **VERSION 0.9.1** - Last of the Druids - Stable Update
 ----------------------------------
 
