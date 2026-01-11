@@ -187,6 +187,34 @@ Show # %H3 $type->gold $tier->any !gold_pilesmall
 #	SetTextColor 170 158 130
 
 #=================================
+# Fungal Talisman
+#=================================
+Show
+	Rarity Normal	
+	Class "talismans"	
+	BaseType "Fungal Talisman"
+	SetTextColor 198 207 240
+	SetBorderColor 198 207 240
+	SetBackgroundColor 46 78 194
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+	SetFontSize 40
+
+Show
+	Rarity >= Magic	
+	Class "talismans"
+	ItemLevel >= 80
+	BaseType "Fungal Talisman"
+	SetTextColor 202 227 193
+	SetBorderColor 202 227 193
+	SetBackgroundColor 60 156 19
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 1 Green Diamond
+	SetFontSize 40
+
+#=================================
 # Rattling Sceptres"
 #=================================
 Show
